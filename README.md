@@ -26,8 +26,9 @@ Interface Analyzer is used to analyze **"show interfaces"** result on IOS-X.
 
 It is used to analyze the input/output drops .
 
-
+![IF Analyzer](README.assets/03-1-16369398368322.png)
 
 ---
 
 The Tools are developed and maintained by Stone. Please contact <comebackhome@163.com> if you help me or bugs
+
