@@ -10,13 +10,17 @@ PTP Badtimestamp Analyzer is used to analysis PTP timestamp offset in IOS-XR.
 
 If there are PTP Badtimestamps,the tools will be filter them 
 
+![image-20211115093909529](README.assets/image-20211115093909529.png) 
 
+ 
 
 ## 2. IP Factory
 
 IP Factory is used to create IP Configuration on IOS-XR/IOS-XE.
 
 It is used by test the device.
+
+![image-20211115094117198](README.assets/image-20211115094117198.png) 
 
 
 
