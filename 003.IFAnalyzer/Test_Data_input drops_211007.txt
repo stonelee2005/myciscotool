@@ -1,0 +1,2013 @@
+RP/0/RSP0/CPU0:cr02.sam.ic#
+RP/0/RSP0/CPU0:cr02.sam.ic#
+RP/0/RSP0/CPU0:cr02.sam.ic#
+RP/0/RSP0/CPU0:cr02.sam.ic#
+RP/0/RSP0/CPU0:cr02.sam.ic#
+RP/0/RSP0/CPU0:cr02.sam.ic#show drops location ?
+  0/0/CPU0  Fully qualified line card specification
+  0/1/CPU0  Fully qualified line card specification
+  0/2/CPU0  Fully qualified line card specification
+  0/3/CPU0  Fully qualified line card specification
+  0/5/CPU0  Fully qualified line card specification
+  0/6/CPU0  Fully qualified line card specification
+  0/7/CPU0  Fully qualified line card specification
+  WORD      Fully qualified line card specification
+RP/0/RSP0/CPU0:cr02.sam.ic#show drops location 0/6/CPU0 
+Thu Oct  7 16:53:29.168 KST
+
+                Node: 0/6/CPU0:
+----------------------------------------------------------------
+
+NP 0 Drops:
+----------------------------------------------------------------
+RSV_DROP_IPV4_DROP_NULL_RTE                                  3446601136      
+RSV_DROP_IFIB_TTL_CHECK                                      2               
+MDF_PUNT_POLICE_DROP                                         1907            
+MODIFY_PUNT_REASON_MISS_DROP                                 3               
+PUNT_IPV6_ADJ_NULL_RTE_EXCD                                  1899            
+PARSE_EGR_INJ_PKT_TYP_UNKNOWN                                41681           
+----------------------------------------------------------------
+
+NP 1 Drops:
+----------------------------------------------------------------
+RSV_DROP_IPV4_DROP_NULL_RTE                                  10314949        
+RSV_DROP_IPV4_URPF_CHK                                       114128          
+RSV_DROP_IN_L3_NOT_MYMAC                                     113             
+RSV_ING_VPWS_INVALID_XID_DROP                                563986          
+MODIFY_PUNT_REASON_MISS_DROP                                 4               
+PARSE_EGR_INJ_PKT_TYP_UNKNOWN                                1228            
+PARSE_DROP_IN_UIDB_DOWN                                      3               
+UNKNOWN_L2_ON_L3_DISCARD                                     1               
+----------------------------------------------------------------
+
+FIA 0 Drops:
+----------------------------------------------------------------
+Total drop:                                                  6               
+Ingress drop:                                                6               
+Ingress sp0 align fail                                       3               
+Ingress sp1 align fail                                       3               
+----------------------------------------------------------------
+
+FIA 1 Drops:
+----------------------------------------------------------------
+Total drop:                                                  15              
+Ingress drop:                                                15              
+Ingress sp0 align fail                                       3               
+Ingress sp1 crc err                                          8               
+Ingress sp1 align fail                                       3               
+Ingress sp1 prot err                                         1               
+----------------------------------------------------------------
+RP/0/RSP0/CPU0:cr02.sam.ic#
+RP/0/RSP0/CPU0:cr02.sam.ic#
+RP/0/RSP0/CPU0:cr02.sam.ic#
+RP/0/RSP0/CPU0:cr02.sam.ic#
+RP/0/RSP0/CPU0:cr02.sam.ic#
+RP/0/RSP0/CPU0:cr02.sam.ic#
+RP/0/RSP0/CPU0:cr02.sam.ic#
+RP/0/RSP0/CPU0:cr02.sam.ic#show drops location 0/7/CPU0 
+Thu Oct  7 16:53:35.803 KST
+
+                Node: 0/7/CPU0:
+----------------------------------------------------------------
+
+NP 0 Drops:
+----------------------------------------------------------------
+RSV_DROP_IPV4_TXADJ_NO_MATCH                                 1               
+RSV_DROP_IPV6_TXADJ_NO_MATCH                                 1               
+RSV_DROP_IPV4_DROP_NULL_RTE                                  90043112        
+RSV_DROP_IFIB_TTL_CHECK                                      1               
+RSV_DROP_IN_L3_NOT_MYMAC                                     1               
+MDF_PUNT_POLICE_DROP                                         12474           
+MODIFY_PUNT_REASON_MISS_DROP                                 3               
+PUNT_ARP_EXCD                                                11579           
+PUNT_LOOP_EXCD                                               16              
+PARSE_EGR_INJ_PKT_TYP_UNKNOWN                                2395            
+PARSE_DROP_IN_UIDB_DOWN                                      2               
+L2TP_ING_DECAP_VER_DROP                                      1               
+----------------------------------------------------------------
+
+NP 1 Drops:
+----------------------------------------------------------------
+RSV_DROP_IFIB_TTL_CHECK                                      2               
+RSV_DROP_IN_L3_NOT_MYMAC                                     1277            
+MODIFY_PUNT_REASON_MISS_DROP                                 3               
+PARSE_EGR_INJ_PKT_TYP_UNKNOWN                                4557            
+PARSE_DROP_IN_UIDB_DOWN                                      1               
+L2TP_ING_DECAP_VER_DROP                                      1               
+----------------------------------------------------------------
+
+FIA 0 Drops:
+----------------------------------------------------------------
+Total drop:                                                  12              
+Ingress drop:                                                12              
+Ingress sp0 bad code                                         1               
+Ingress sp0 align fail                                       3               
+Ingress sp1 crc err                                          5               
+Ingress sp1 align fail                                       3               
+----------------------------------------------------------------
+
+FIA 1 Drops:
+----------------------------------------------------------------
+Total drop:                                                  8               
+Ingress drop:                                                8               
+Ingress sp0 align fail                                       3               
+Ingress sp1 crc err                                          1               
+Ingress sp1 bad code                                         1               
+Ingress sp1 align fail                                       3               
+----------------------------------------------------------------
+RP/0/RSP0/CPU0:cr02.sam.ic#
+RP/0/RSP0/CPU0:cr02.sam.ic#
+RP/0/RSP0/CPU0:cr02.sam.ic#
+RP/0/RSP0/CPU0:cr02.sam.ic#
+RP/0/RSP0/CPU0:cr02.sam.ic#
+RP/0/RSP0/CPU0:cr02.sam.ic#
+RP/0/RSP0/CPU0:cr02.sam.ic#
+RP/0/RSP0/CPU0:cr02.sam.ic#show drops  all ongoing location ?
+  0/0/0        Fully qualified location specification
+  0/0/1        Fully qualified location specification
+  0/0/CPU0     Fully qualified location specification
+  0/1/0        Fully qualified location specification
+  0/1/1        Fully qualified location specification
+  0/1/CPU0     Fully qualified location specification
+  0/2/0        Fully qualified location specification
+  0/2/1        Fully qualified location specification
+  0/2/CPU0     Fully qualified location specification
+  0/3/0        Fully qualified location specification
+  0/3/1        Fully qualified location specification
+  0/3/CPU0     Fully qualified location specification
+  0/5/0        Fully qualified location specification
+  0/5/1        Fully qualified location specification
+  0/5/CPU0     Fully qualified location specification
+  0/6/0        Fully qualified location specification
+  0/6/1        Fully qualified location specification
+  0/6/CPU0     Fully qualified location specification
+  0/7/0        Fully qualified location specification
+  0/7/1        Fully qualified location specification
+  0/7/CPU0     Fully qualified location specification
+  0/RSP0/CPU0  Fully qualified location specification
+  0/RSP1/CPU0  Fully qualified location specification
+  WORD         Fully qualified location specification
+  all          Run on all nodes(cisco-support)
+RP/0/RSP0/CPU0:cr02.sam.ic#show drops  all ongoing location 
+% Incomplete command.
+RP/0/RSP0/CPU0:cr02.sam.ic#show drops  all ongoing location 0/6/0 
+Thu Oct  7 16:53:57.329 KST
+
+
+=====================================
+Checking for ongoing drops on 0/6/0
+=====================================
+
+
+show lpts pifib hardware entry statistics:
+[lpts:0/6/CPU0] 23     IPV6 default      TCP: 8
+
+
+show netio drops:
+[netio:Interface: FINT0/6/CPU0] /pkg/lib/libipv6_netio.dll: 1
+[netio:Interface: TenGigE0/6/1/0] /pkg/lib/libipv4_fib_switch.dll: 283562
+[netio:Interface: TenGigE0/6/1/0] /pkg/lib/libipv6_netio.dll: 62913
+[netio:Interface: TenGigE0/6/1/1] /pkg/lib/libipv4_fib_switch.dll: 328224
+[netio:Interface: TenGigE0/6/1/3] /pkg/lib/libipv4_fib_switch.dll: 2
+[netio:Interface: TenGigE0/6/0/0] /pkg/lib/libipv4_fib_switch.dll: 327299
+[netio:Interface: TenGigE0/6/0/0] /pkg/lib/libipv6_netio.dll: 33768
+[netio:Interface: TenGigE0/6/0/1] /pkg/lib/libipv4_fib_switch.dll: 123893
+[netio:Interface: TenGigE0/6/0/1] /pkg/lib/libipv6_netio.dll: 43708737
+[netio:Interface: TenGigE0/6/0/2] /pkg/lib/libipv4_fib_switch.dll: 743885
+[netio:Interface: TenGigE0/6/0/2] /pkg/lib/libipv6_netio.dll: 50757
+[netio:Interface: TenGigE0/6/0/3] /pkg/lib/libipv4_fib_switch.dll: 12
+
+
+RP/0/RSP0/CPU0:cr02.sam.ic#
+RP/0/RSP0/CPU0:cr02.sam.ic#
+RP/0/RSP0/CPU0:cr02.sam.ic#show drops  all ongoing location 0/7/0 
+Thu Oct  7 16:54:04.985 KST
+
+
+=====================================
+Checking for ongoing drops on 0/7/0
+=====================================
+
+
+show lpts pifib hardware entry statistics:
+[lpts:0/7/CPU0] 19     IPV4 default      TCP: 373
+[lpts:0/7/CPU0] 20     IPV4 default      TCP: 383
+[lpts:0/7/CPU0] 21     IPV4 default      TCP: 20
+[lpts:0/7/CPU0] 24     IPV4 default      TCP: 26
+[lpts:0/7/CPU0] 86     IPV4 default      UDP: 13
+[lpts:0/7/CPU0] 22     IPV6 default      TCP: 1
+[lpts:0/7/CPU0] 27     IPV6 default      TCP: 17
+[lpts:0/7/CPU0] 34     IPV6 default      TCP: 7
+[lpts:0/7/CPU0] 35     IPV6 default      TCP: 39
+
+
+show netio drops:
+[netio:Interface: FINT0/7/CPU0] /pkg/lib/libipv4_netio.dll: 1
+[netio:Interface: TenGigE0/7/1/0] /pkg/lib/libipv4_fib_switch.dll: 325938
+[netio:Interface: TenGigE0/7/1/1] /pkg/lib/libipv4_fib_switch.dll: 326905
+[netio:Interface: TenGigE0/7/1/2] /pkg/lib/libipv4_fib_switch.dll: 6
+[netio:Interface: TenGigE0/7/1/3] /pkg/lib/libipv4_fib_switch.dll: 327376
+[netio:Interface: TenGigE0/7/0/0] /pkg/lib/libipv4_fib_switch.dll: 163015
+[netio:Interface: TenGigE0/7/0/1] /pkg/lib/libipv4_fib_switch.dll: 327727
+[netio:Interface: TenGigE0/7/0/2] /pkg/lib/libipv4_fib_switch.dll: 339649
+[netio:Interface: TenGigE0/7/0/2] /pkg/lib/libipv6_netio.dll: 52091
+[netio:Interface: TenGigE0/7/0/3] /pkg/lib/libipv4_fib_switch.dll: 8
+
+
+RP/0/RSP0/CPU0:cr02.sam.ic#
+RP/0/RSP0/CPU0:cr02.sam.ic#
+RP/0/RSP0/CPU0:cr02.sam.ic#
+RP/0/RSP0/CPU0:cr02.sam.ic#
+RP/0/RSP0/CPU0:cr02.sam.ic#show controllers fa
+FastEthernet  fabric  fabricmgr  
+RP/0/RSP0/CPU0:cr02.sam.ic#show controllers fabric fia drops ingress location ?
+  0/0/0        Fully qualified location specification
+  0/0/1        Fully qualified location specification
+  0/0/CPU0     Fully qualified location specification
+  0/1/0        Fully qualified location specification
+  0/1/1        Fully qualified location specification
+  0/1/CPU0     Fully qualified location specification
+  0/2/0        Fully qualified location specification
+  0/2/1        Fully qualified location specification
+  0/2/CPU0     Fully qualified location specification
+  0/3/0        Fully qualified location specification
+  0/3/1        Fully qualified location specification
+  0/3/CPU0     Fully qualified location specification
+  0/5/0        Fully qualified location specification
+  0/5/1        Fully qualified location specification
+  0/5/CPU0     Fully qualified location specification
+  0/6/0        Fully qualified location specification
+  0/6/1        Fully qualified location specification
+  0/6/CPU0     Fully qualified location specification
+  0/7/0        Fully qualified location specification
+  0/7/1        Fully qualified location specification
+  0/7/CPU0     Fully qualified location specification
+  0/RSP0/CPU0  Fully qualified location specification
+  0/RSP1/CPU0  Fully qualified location specification
+  WORD         Fully qualified location specification
+RP/0/RSP0/CPU0:cr02.sam.ic#show controllers fabric fia drops ingress location 0/6/0
+Thu Oct  7 16:54:23.901 KST
+Node is not ready or the command is not supported
+RP/0/RSP0/CPU0:cr02.sam.ic#show controllers fabric fia drops ingress location 0/6/0 ?
+  |     Output Modifiers
+  <cr>  
+RP/0/RSP0/CPU0:cr02.sam.ic#show controllers fabric fia drops ingress location 0/6/0 
+Thu Oct  7 16:54:39.587 KST
+Node is not ready or the command is not supported
+RP/0/RSP0/CPU0:cr02.sam.ic#show controllers fabric fia drops ingress location 0/7/0
+Thu Oct  7 16:54:42.240 KST
+Node is not ready or the command is not supported
+RP/0/RSP0/CPU0:cr02.sam.ic#show controllers fabric fia drops ingress location 0/7/CPU0 
+Thu Oct  7 16:54:47.247 KST
+
+ ********** FIA-0 **********
+Category: in_drop-0
+                            From Spaui Drop-0                        0
+                                  accpt tbl-0                        0
+                                    ctl len-0                        0
+                                  short pkt-0                        0
+                                max pkt len-0                        0
+                                min pkt len-0                        0
+                            From Spaui Drop-1                        0
+                                  accpt tbl-1                        0
+                                    ctl len-1                        0
+                                  short pkt-1                        0
+                                max pkt len-1                        0
+                                min pkt len-1                        0
+                                     Tail drp                        0
+                                      Vqi drp                        0
+                           Header parsing drp                        0
+                                 pw to ni drp                        0
+                               ni from pw drp                        0
+                                  sp0 crc err                        0
+                                sp0 bad align                        0
+                                 sp0 bad code                        1
+                               sp0 align fail                        3
+                                 sp0 prot err                        0
+                                  sp1 crc err                        5
+                                sp1 bad align                        0
+                                 sp1 bad code                        0
+                               sp1 align fail                        3
+                                 sp1 prot err                        0
+
+ ********** FIA-1 **********
+Category: in_drop-1
+                            From Spaui Drop-0                        0
+                                  accpt tbl-0                        0
+                                    ctl len-0                        0
+                                  short pkt-0                        0
+                                max pkt len-0                        0
+                                min pkt len-0                        0
+                            From Spaui Drop-1                        0
+                                  accpt tbl-1                        0
+                                    ctl len-1                        0
+                                  short pkt-1                        0
+                                max pkt len-1                        0
+                                min pkt len-1                        0
+                                     Tail drp                        0
+                                      Vqi drp                        0
+                           Header parsing drp                        0
+                                 pw to ni drp                        0
+                               ni from pw drp                        0
+                                  sp0 crc err                        0
+                                sp0 bad align                        0
+                                 sp0 bad code                        0
+                               sp0 align fail                        3
+                                 sp0 prot err                        0
+                                  sp1 crc err                        1
+                                sp1 bad align                        0
+                                 sp1 bad code                        1
+                               sp1 align fail                        3
+                                 sp1 prot err                        0
+RP/0/RSP0/CPU0:cr02.sam.ic#
+RP/0/RSP0/CPU0:cr02.sam.ic#
+RP/0/RSP0/CPU0:cr02.sam.ic#
+RP/0/RSP0/CPU0:cr02.sam.ic#
+RP/0/RSP0/CPU0:cr02.sam.ic#show controllers fabric fia drops ingress location 0/6/CPU0 
+Thu Oct  7 16:54:51.112 KST
+
+ ********** FIA-0 **********
+Category: in_drop-0
+                            From Spaui Drop-0                        0
+                                  accpt tbl-0                        0
+                                    ctl len-0                        0
+                                  short pkt-0                        0
+                                max pkt len-0                        0
+                                min pkt len-0                        0
+                            From Spaui Drop-1                        0
+                                  accpt tbl-1                        0
+                                    ctl len-1                        0
+                                  short pkt-1                        0
+                                max pkt len-1                        0
+                                min pkt len-1                        0
+                                     Tail drp                        0
+                                      Vqi drp                        0
+                           Header parsing drp                        0
+                                 pw to ni drp                        0
+                               ni from pw drp                        0
+                                  sp0 crc err                        0
+                                sp0 bad align                        0
+                                 sp0 bad code                        0
+                               sp0 align fail                        3
+                                 sp0 prot err                        0
+                                  sp1 crc err                        0
+                                sp1 bad align                        0
+                                 sp1 bad code                        0
+                               sp1 align fail                        3
+                                 sp1 prot err                        0
+
+ ********** FIA-1 **********
+Category: in_drop-1
+                            From Spaui Drop-0                        0
+                                  accpt tbl-0                        0
+                                    ctl len-0                        0
+                                  short pkt-0                        0
+                                max pkt len-0                        0
+                                min pkt len-0                        0
+                            From Spaui Drop-1                        0
+                                  accpt tbl-1                        0
+                                    ctl len-1                        0
+                                  short pkt-1                        0
+                                max pkt len-1                        0
+                                min pkt len-1                        0
+                                     Tail drp                        0
+                                      Vqi drp                        0
+                           Header parsing drp                        0
+                                 pw to ni drp                        0
+                               ni from pw drp                        0
+                                  sp0 crc err                        0
+                                sp0 bad align                        0
+                                 sp0 bad code                        0
+                               sp0 align fail                        3
+                                 sp0 prot err                        0
+                                  sp1 crc err                        8
+                                sp1 bad align                        0
+                                 sp1 bad code                        0
+                               sp1 align fail                        3
+                                 sp1 prot err                        1
+RP/0/RSP0/CPU0:cr02.sam.ic#
+RP/0/RSP0/CPU0:cr02.sam.ic#
+RP/0/RSP0/CPU0:cr02.sam.ic#
+RP/0/RSP0/CPU0:cr02.sam.ic#
+RP/0/RSP0/CPU0:cr02.sam.ic#
+RP/0/RSP0/CPU0:cr02.sam.ic#
+RP/0/RSP0/CPU0:cr02.sam.ic#
+RP/0/RSP0/CPU0:cr02.sam.ic#
+RP/0/RSP0/CPU0:cr02.sam.ic#
+RP/0/RSP0/CPU0:cr02.sam.ic#
+RP/0/RSP0/CPU0:cr02.sam.ic#
+RP/0/RSP0/CPU0:cr02.sam.ic#show controllers np soft-errors all all  location ?
+  0/0/CPU0  Fully qualified line card specification
+  0/1/CPU0  Fully qualified line card specification
+  0/2/CPU0  Fully qualified line card specification
+  0/3/CPU0  Fully qualified line card specification
+  0/5/CPU0  Fully qualified line card specification
+  0/6/CPU0  Fully qualified line card specification
+  0/7/CPU0  Fully qualified line card specification
+  WORD      Fully qualified line card specification
+RP/0/RSP0/CPU0:cr02.sam.ic#show controllers np soft-errors all all  location 0/6/cpU0 
+Thu Oct  7 16:55:11.142 KST
+
+                Node: 0/6/CPU0:
+----------------------------------------------------------------
+
+NP   Blk     Name       Ignored     Fixed       Sticky      Reset     Fast Reset
+--   ---   ----------  ---------  ----------  ----------  ----------  ----------
+ 0     0    Undefined          0           0           0           0           0
+ 0     1      NET_IF0          0           0           0           0           0
+ 0     2      NET_IF1          0           0           0           0           0
+ 0     3      NET_IF2          0           0           0           0           0
+ 0     4    Undefined          0           0           0           0           0
+ 0     5          DMA          0           0           0           0           0
+ 0     6         CMEM          0           0           0           0           0
+ 0     7          PRS          0           0           0           0           0
+ 0     8          PRS          0           0           0           0           0
+ 0     9          PRS          0           0           0           0           0
+ 0    10          PRS          0           0           0           0           0
+ 0    11         SRCH          0           0           0           0           0
+ 0    12          LRN          0           0           0           0           0
+ 0    13   SRCH_PTR_Q          0           0           0           0           0
+ 0    14       INDX_Q          0           0           0           0           0
+ 0    15         MSGQ          0           0           0           0           0
+ 0    16    Undefined          0           0           0           0           0
+ 0    17      PRS_ALL          0           0           0           0           0
+ 0    18         CAMC          0           0           0           0           0
+ 0    19      RSV_ALL          0           0           0           0           0
+ 0    20          RSV          0           0           0           0           0
+ 0    21          RSV          0           0           0           0           0
+ 0    22      MDF_ALL          0           0           0           0           0
+ 0    23          MDF          0           0           0           0           0
+ 0    24          MDF          0           0           0           0           0
+ 0    25      STAT_MC          0           0           0           0           0
+ 0    26      STAT_MC          0           0           0           0           0
+ 0    27          RFD          0           0           0           0           0
+ 0    28     FMEM_INT          0           0           0           0           0
+ 0    29          SMI          0           0           0           0           0
+ 0    30      SRCH_MC          0           0           0           0           0
+ 0    31    Undefined          0           0           0           0           0
+ 0    32          CRG          0           0           0           0           0
+ 0    33       TM_DMA          0           0           0           0           0
+ 0    34     TM_PTR_Q          0           0           0           0           0
+ 0    35        TM_OQ          0           0           0           0           0
+ 0    36        TM_QC          0           0           0           0           0
+ 0    37       TM_POL          0           0           0           0           0
+ 0    38    TM_SC_L01          0           0           0           0           0
+ 0    39   TM_SC_L234          0           0           0           0           0
+ 0    40   TM_SC_L234          0           0           0           0           0
+ 0    41   TM_SC_L234          0           0           0           0           0
+ 0    42   TM_SC_L234          0           0           0           0           0
+ 0    43        TM_MI          0           0           0           0           0
+ 0    44        TM_MC          0           0           0           0           0
+ 0    45       TM_FCU          0           0           0           0           0
+ 0    46    Undefined          0           0           0           0           0
+ 0    47     ECPU_BRG          0           0           0           0           0
+ 0    48      ECPU_IC          0           0           0           0           0
+ 0    49     ECPU_DMA          0           0           0           0           0
+ 0    50    ECPU_FDMA          0           0           0           0           0
+ 0    51    Undefined          0           0           0           0           0
+ 0    52         STAT          0           0           0           0           0
+ 0    53         STAT          0           0           0           0           0
+ 0    54         STAT          0           0           0           0           0
+ 0    55         STAT          0           0           0           0           0
+ 0    56     STAT_ALL          0           0           0           0           0
+
+NP   Blk     Name       Ignored     Fixed       Sticky      Reset     Fast Reset
+--   ---   ----------  ---------  ----------  ----------  ----------  ----------
+ 1     0    Undefined          0           0           0           0           0
+ 1     1      NET_IF0          0           0           0           0           0
+ 1     2      NET_IF1          0           0           0           0           0
+ 1     3      NET_IF2          0           0           0           0           0
+ 1     4    Undefined          0           0           0           0           0
+ 1     5          DMA          0           0           0           0           0
+ 1     6         CMEM          0           0           0           0           0
+ 1     7          PRS          0           0           0           0           0
+ 1     8          PRS          0           0           0           0           0
+ 1     9          PRS          0           0           0           0           0
+ 1    10          PRS          0           0           0           0           0
+ 1    11         SRCH          0           0           0           0           0
+ 1    12          LRN          0           0           0           0           0
+ 1    13   SRCH_PTR_Q          0           0           0           0           0
+ 1    14       INDX_Q          0           0           0           0           0
+ 1    15         MSGQ          0           0           0           0           0
+ 1    16    Undefined          0           0           0           0           0
+ 1    17      PRS_ALL          0           0           0           0           0
+ 1    18         CAMC          0           0           0           0           0
+ 1    19      RSV_ALL          0           0           0           0           0
+ 1    20          RSV          0           0           0           0           0
+ 1    21          RSV          0           0           0           0           0
+ 1    22      MDF_ALL          0           0           0           0           0
+ 1    23          MDF          0           0           0           0           0
+ 1    24          MDF          0           0           0           0           0
+ 1    25      STAT_MC          0           0           0           0           0
+ 1    26      STAT_MC          0           0           0           0           0
+ 1    27          RFD          0           0           0           0           0
+ 1    28     FMEM_INT          0           0           0           0           0
+ 1    29          SMI          0           0           0           0           0
+ 1    30      SRCH_MC          0           0           0           0           0
+ 1    31    Undefined          0           0           0           0           0
+ 1    32          CRG          0           0           0           0           0
+ 1    33       TM_DMA          0           0           0           0           0
+ 1    34     TM_PTR_Q          0           0           0           0           0
+ 1    35        TM_OQ          0           0           0           0           0
+ 1    36        TM_QC          0           0           0           0           0
+ 1    37       TM_POL          0           0           0           0           0
+ 1    38    TM_SC_L01          0           0           0           0           0
+ 1    39   TM_SC_L234          0           0           0           0           0
+ 1    40   TM_SC_L234          0           0           0           0           0
+ 1    41   TM_SC_L234          0           0           0           0           0
+ 1    42   TM_SC_L234          0           0           0           0           0
+ 1    43        TM_MI          0           0           0           0           0
+ 1    44        TM_MC          0           0           0           0           0
+ 1    45       TM_FCU          0           0           0           0           0
+ 1    46    Undefined          0           0           0           0           0
+ 1    47     ECPU_BRG          0           0           0           0           0
+ 1    48      ECPU_IC          0           0           0           0           0
+ 1    49     ECPU_DMA          0           0           0           0           0
+ 1    50    ECPU_FDMA          0           0           0           0           0
+ 1    51    Undefined          0           0           0           0           0
+ 1    52         STAT          0           0           0           0           0
+ 1    53         STAT          0           0           0           0           0
+ 1    54         STAT          0           0           0           0           0
+ 1    55         STAT          0           0           0           0           0
+ 1    56     STAT_ALL          0           0           0           0           0
+RP/0/RSP0/CPU0:cr02.sam.ic#
+RP/0/RSP0/CPU0:cr02.sam.ic#
+RP/0/RSP0/CPU0:cr02.sam.ic#
+RP/0/RSP0/CPU0:cr02.sam.ic#
+RP/0/RSP0/CPU0:cr02.sam.ic#
+RP/0/RSP0/CPU0:cr02.sam.ic#
+RP/0/RSP0/CPU0:cr02.sam.ic#
+RP/0/RSP0/CPU0:cr02.sam.ic#
+RP/0/RSP0/CPU0:cr02.sam.ic#
+RP/0/RSP0/CPU0:cr02.sam.ic#
+RP/0/RSP0/CPU0:cr02.sam.ic#
+RP/0/RSP0/CPU0:cr02.sam.ic#show controllers np soft-errors all all  location 0/7/cpU0 
+Thu Oct  7 16:55:15.475 KST
+
+                Node: 0/7/CPU0:
+----------------------------------------------------------------
+
+NP   Blk     Name       Ignored     Fixed       Sticky      Reset     Fast Reset
+--   ---   ----------  ---------  ----------  ----------  ----------  ----------
+ 0     0    Undefined          0           0           0           0           0
+ 0     1      NET_IF0          0           0           0           0           0
+ 0     2      NET_IF1          0           0           0           0           0
+ 0     3      NET_IF2          0           0           0           0           0
+ 0     4    Undefined          0           0           0           0           0
+ 0     5          DMA          0           0           0           0           0
+ 0     6         CMEM          0           0           0           0           0
+ 0     7          PRS          0           0           0           0           0
+ 0     8          PRS          0           0           0           0           0
+ 0     9          PRS          0           0           0           0           0
+ 0    10          PRS          0           0           0           0           0
+ 0    11         SRCH          0           0           0           0           0
+ 0    12          LRN          0           0           0           0           0
+ 0    13   SRCH_PTR_Q          0           0           0           0           0
+ 0    14       INDX_Q          0           0           0           0           0
+ 0    15         MSGQ          0           0           0           0           0
+ 0    16    Undefined          0           0           0           0           0
+ 0    17      PRS_ALL          0           0           0           0           0
+ 0    18         CAMC          0           0           0           0           0
+ 0    19      RSV_ALL          0           0           0           0           0
+ 0    20          RSV          0           0           0           0           0
+ 0    21          RSV          0           0           0           0           0
+ 0    22      MDF_ALL          0           0           0           0           0
+ 0    23          MDF          0           0           0           0           0
+ 0    24          MDF          0           0           0           0           0
+ 0    25      STAT_MC          0           0           0           0           0
+ 0    26      STAT_MC          0           0           0           0           0
+ 0    27          RFD          0           0           0           0           0
+ 0    28     FMEM_INT          0           0           0           0           0
+ 0    29          SMI          0           0           0           0           0
+ 0    30      SRCH_MC          0           0           0           0           0
+ 0    31    Undefined          0           0           0           0           0
+ 0    32          CRG          0           0           0           0           0
+ 0    33       TM_DMA          0           0           0           0           0
+ 0    34     TM_PTR_Q          0           0           0           0           0
+ 0    35        TM_OQ          0           0           0           0           0
+ 0    36        TM_QC          0           0           0           0           0
+ 0    37       TM_POL          0           0           0           0           0
+ 0    38    TM_SC_L01          0           0           0           0           0
+ 0    39   TM_SC_L234          0           0           0           0           0
+ 0    40   TM_SC_L234          0           0           0           0           0
+ 0    41   TM_SC_L234          0           0           0           0           0
+ 0    42   TM_SC_L234          0           0           0           0           0
+ 0    43        TM_MI          0           0           0           0           0
+ 0    44        TM_MC          0           0           0           0           0
+ 0    45       TM_FCU          0           0           0           0           0
+ 0    46    Undefined          0           0           0           0           0
+ 0    47     ECPU_BRG          0           0           0           0           0
+ 0    48      ECPU_IC          0           0           0           0           0
+ 0    49     ECPU_DMA          0           0           0           0           0
+ 0    50    ECPU_FDMA          0           0           0           0           0
+ 0    51    Undefined          0           0           0           0           0
+ 0    52         STAT          0           0           0           0           0
+ 0    53         STAT          0           0           0           0           0
+ 0    54         STAT          0           0           0           0           0
+ 0    55         STAT          0           0           0           0           0
+ 0    56     STAT_ALL          0           0           0           0           0
+
+NP   Blk     Name       Ignored     Fixed       Sticky      Reset     Fast Reset
+--   ---   ----------  ---------  ----------  ----------  ----------  ----------
+ 1     0    Undefined          0           0           0           0           0
+ 1     1      NET_IF0          0           0           0           0           0
+ 1     2      NET_IF1          0           0           0           0           0
+ 1     3      NET_IF2          0           0           0           0           0
+ 1     4    Undefined          0           0           0           0           0
+ 1     5          DMA          0           0           0           0           0
+ 1     6         CMEM          0           0           0           0           0
+ 1     7          PRS          0           0           0           0           0
+ 1     8          PRS          0           0           0           0           0
+ 1     9          PRS          0           0           0           0           0
+ 1    10          PRS          0           0           0           0           0
+ 1    11         SRCH          0           0           0           0           0
+ 1    12          LRN          0           0           0           0           0
+ 1    13   SRCH_PTR_Q          0           0           0           0           0
+ 1    14       INDX_Q          0           0           0           0           0
+ 1    15         MSGQ          0           0           0           0           0
+ 1    16    Undefined          0           0           0           0           0
+ 1    17      PRS_ALL          0           0           0           0           0
+ 1    18         CAMC          0           0           0           0           0
+ 1    19      RSV_ALL          0           0           0           0           0
+ 1    20          RSV          0           0           0           0           0
+ 1    21          RSV          0           0           0           0           0
+ 1    22      MDF_ALL          0           0           0           0           0
+ 1    23          MDF          0           0           0           0           0
+ 1    24          MDF          0           0           0           0           0
+ 1    25      STAT_MC          0           0           0           0           0
+ 1    26      STAT_MC          0           0           0           0           0
+ 1    27          RFD          0           0           0           0           0
+ 1    28     FMEM_INT          0           0           0           0           0
+ 1    29          SMI          0           0           0           0           0
+ 1    30      SRCH_MC          0           0           0           0           0
+ 1    31    Undefined          0           0           0           0           0
+ 1    32          CRG          0           0           0           0           0
+ 1    33       TM_DMA          0           0           0           0           0
+ 1    34     TM_PTR_Q          0           0           0           0           0
+ 1    35        TM_OQ          0           0           0           0           0
+ 1    36        TM_QC          0           0           0           0           0
+ 1    37       TM_POL          0           0           0           0           0
+ 1    38    TM_SC_L01          0           0           0           0           0
+ 1    39   TM_SC_L234          0           0           0           0           0
+ 1    40   TM_SC_L234          0           0           0           0           0
+ 1    41   TM_SC_L234          0           0           0           0           0
+ 1    42   TM_SC_L234          0           0           0           0           0
+ 1    43        TM_MI          0           0           0           0           0
+ 1    44        TM_MC          0           0           0           0           0
+ 1    45       TM_FCU          0           0           0           0           0
+ 1    46    Undefined          0           0           0           0           0
+ 1    47     ECPU_BRG          0           0           0           0           0
+ 1    48      ECPU_IC          0           0           0           0           0
+ 1    49     ECPU_DMA          0           0           0           0           0
+ 1    50    ECPU_FDMA          0           0           0           0           0
+ 1    51    Undefined          0           0           0           0           0
+ 1    52         STAT          0           0           0           0           0
+ 1    53         STAT          0           0           0           0           0
+ 1    54         STAT          0           0           0           0           0
+ 1    55         STAT          0           0           0           0           0
+ 1    56     STAT_ALL          0           0           0           0           0
+RP/0/RSP0/CPU0:cr02.sam.ic#
+RP/0/RSP0/CPU0:cr02.sam.ic#
+RP/0/RSP0/CPU0:cr02.sam.ic#
+RP/0/RSP0/CPU0:cr02.sam.ic#
+RP/0/RSP0/CPU0:cr02.sam.ic#
+RP/0/RSP0/CPU0:cr02.sam.ic#
+RP/0/RSP0/CPU0:cr02.sam.ic#
+RP/0/RSP0/CPU0:cr02.sam.ic#show controllers np summary all 
+Thu Oct  7 16:55:22.044 KST
+
+                Node: 0/0/CPU0:
+----------------------------------------------------------------
+ [total 2 NP]  Driver Version 12.46a Build 4
+ NP 0 :  Hardware Revision: v2 A0
+      :  Ucode - Version: 1.0 Build Date: ( Apr 17 2019, 00:23:00 ) 
+      :  State: UP
+ NP 1 :  Hardware Revision: v2 A0
+      :  Ucode - Version: 1.0 Build Date: ( Apr 17 2019, 00:23:00 ) 
+      :  State: UP
+
+                Node: 0/1/CPU0:
+----------------------------------------------------------------
+ [total 2 NP]  Driver Version 12.46a Build 4
+ NP 0 :  Hardware Revision: v2 A0
+      :  Ucode - Version: 1.0 Build Date: ( Apr 17 2019, 00:23:00 ) 
+      :  State: UP
+ NP 1 :  Hardware Revision: v2 A0
+      :  Ucode - Version: 1.0 Build Date: ( Apr 17 2019, 00:23:00 ) 
+      :  State: UP
+
+                Node: 0/2/CPU0:
+----------------------------------------------------------------
+ [total 2 NP]  Driver Version 12.46a Build 4
+ NP 0 :  Hardware Revision: v2 A0
+      :  Ucode - Version: 1.0 Build Date: ( Apr 17 2019, 00:23:00 ) 
+      :  State: UP
+ NP 1 :  Hardware Revision: v2 A0
+      :  Ucode - Version: 1.0 Build Date: ( Apr 17 2019, 00:23:00 ) 
+      :  State: UP
+
+                Node: 0/3/CPU0:
+----------------------------------------------------------------
+ [total 1 NP]  Driver Version 14.46a Build 9
+ NP 0 :  Hardware Revision: v2 A1
+      :  Ucode - Version: 1.0 Build Date: ( Apr 17 2019, 00:41:00 ) 
+      :  NP core frequency: 575 MHz
+      :  DDR frequency    : 933 MHz
+      :  State: UP
+
+                Node: 0/5/CPU0:
+----------------------------------------------------------------
+ [total 2 NP]  Driver Version 12.46a Build 4
+ NP 0 :  Hardware Revision: v2 A0
+      :  Ucode - Version: 1.0 Build Date: ( Apr 17 2019, 00:23:00 ) 
+      :  State: UP
+ NP 1 :  Hardware Revision: v2 A0
+      :  Ucode - Version: 1.0 Build Date: ( Apr 17 2019, 00:23:00 ) 
+      :  State: UP
+
+                Node: 0/6/CPU0:
+----------------------------------------------------------------
+ [total 2 NP]  Driver Version 12.46a Build 4
+ NP 0 :  Hardware Revision: v2 A0
+      :  Ucode - Version: 1.0 Build Date: ( Apr 17 2019, 00:23:00 ) 
+      :  State: UP
+ NP 1 :  Hardware Revision: v2 A0
+      :  Ucode - Version: 1.0 Build Date: ( Apr 17 2019, 00:23:00 ) 
+      :  State: UP
+
+                Node: 0/7/CPU0:
+----------------------------------------------------------------
+ [total 2 NP]  Driver Version 12.46a Build 4
+ NP 0 :  Hardware Revision: v2 A0
+      :  Ucode - Version: 1.0 Build Date: ( Apr 17 2019, 00:23:00 ) 
+      :  State: UP
+ NP 1 :  Hardware Revision: v2 A0
+      :  Ucode - Version: 1.0 Build Date: ( Apr 17 2019, 00:23:00 ) 
+      :  State: UP
+RP/0/RSP0/CPU0:cr02.sam.ic#
+RP/0/RSP0/CPU0:cr02.sam.ic#
+RP/0/RSP0/CPU0:cr02.sam.ic#
+RP/0/RSP0/CPU0:cr02.sam.ic#
+RP/0/RSP0/CPU0:cr02.sam.ic#
+RP/0/RSP0/CPU0:cr02.sam.ic#show controllers np counters all location ?
+  0/0/CPU0  Fully qualified line card specification
+  0/1/CPU0  Fully qualified line card specification
+  0/2/CPU0  Fully qualified line card specification
+  0/3/CPU0  Fully qualified line card specification
+  0/5/CPU0  Fully qualified line card specification
+  0/6/CPU0  Fully qualified line card specification
+  0/7/CPU0  Fully qualified line card specification
+  WORD      Fully qualified line card specification
+RP/0/RSP0/CPU0:cr02.sam.ic#show controllers np counters all location 0/6/CPU0 
+Thu Oct  7 16:55:32.073 KST
+
+                Node: 0/6/CPU0:
+----------------------------------------------------------------
+
+Show global stats counters for NP0, revision v2
+
+Last clearing of counters for this NP: NEVER 
+
+Read 55 non-zero NP counters:
+Offset  Counter                                               FrameValue   Rate (pps)
+-------------------------------------------------------------------------------------
+  16  MDF_TX_LC_CPU                                             56710035          56
+  17  MDF_TX_WIRE                                           136181356490      134978
+  21  MDF_TX_FABRIC                                         169712862296      168213
+  33  PARSE_FAB_RECEIVE_CNT                                 136179322472      134976
+  37  PARSE_INTR_RECEIVE_CNT                                   523370499         519
+  41  PARSE_INJ_RECEIVE_CNT                                      4276339           4
+  45  PARSE_ENET_RECEIVE_CNT                                172906365846      171378
+  49  PARSE_TM_LOOP_RECEIVE_CNT                                  4864481           5
+  53  PARSE_TOP_LOOP_RECEIVE_CNT                               299282302         297
+  63  DBG_RSV_EP_L_RSV_ING_L3_IFIB                               7078802           7
+  64  DBG_RSV_EP_L_RSV_ING_L3_IFIB_MATCH                         7078802           7
+  65  DBG_RSV_EP_L_RSV_ING_L3_IFIB_PUNT_LOCAL                     228172           0
+  67  DBG_RSV_EP_L_RSV_ING_L3_RSLTS_MATCH                        7078662           7
+  68  DBG_RSV_EP_L_RSV_ING_PUNT                                 62359156          62
+ 124  RSV_DROP_IPV4_DROP_NULL_RTE                             3447138585        3417
+ 250  RSV_DROP_IFIB_TTL_CHECK                                          2           0
+ 414  RSV_EGR_SPAN                                             300286091         298
+ 469  RSV_EGR_IPV6_LINK_LOCAL                                     205943           0
+ 514  MDF_PIPE_LPBK                                            299282303         297
+ 532  MDF_PUNT_POLICE_DROP                                          1907           0
+ 539  MODIFY_PUNT_REASON_MISS_DROP                                     3           0
+ 599  MDF_LB_TM_LPBK0                                            4864480           5
+ 776  PUNT_ARP                                                     65226           0
+ 782  PUNT_LOOP                                                    33460           0
+ 790  PUNT_DIAGS                                                   16803           0
+ 820  PUNT_EFM                                                   2015444           2
+ 822  PUNT_IPv4_OPTIONS                                               36           0
+ 840  PUNT_TTL_EXCEEDED                                           300272           0
+ 850  PUNT_ADJ                                                   1388512           1
+ 864  PUNT_IPV6_TTL_ERROR                                            225           0
+ 902  PUNT_STATISTICS                                            8822404           9
+ 904  PUNT_DIAGS_RSP_ACT                                           16807           0
+ 906  PUNT_DIAGS_RSP_STBY                                          16809           0
+ 908  PUNT_NETIO_RP_TO_LC_CPU                                      41693           0
+ 946  PUNT_IPV6_ADJ_NULL_RTE                                    43797596          43
+ 947  PUNT_IPV6_ADJ_NULL_RTE_EXCD                                   1899           0
+1036  PUNT_IFIB_OSPF_OPT                                             138           0
+1040  PUNT_DHCP_BCAST                                                 57           0
+1233  PRS_HEALTH_MON                                             4864479           5
+1242  INTR_FRAME_TYPE_7                                          8822405           9
+1266  PARSE_ING_SLOW_PROTO                                       2015444           2
+1267  PARSE_ING_IPV6_LINK_LOCAL                                   363388           0
+1271  PARSE_RSP_INJ_FAB_CNT                                     10076598          10
+1274  PARSE_RSP_INJ_DIAGS_CNT                                      33616           0
+1275  PARSE_EGR_INJ_PKT_TYP_UNKNOWN                                41687           0
+1276  PARSE_EGR_INJ_PKT_TYP_IPV4                                 3081562           3
+1277  PARSE_EGR_INJ_PKT_TYP_IPV6                                 1888555           2
+1280  PARSE_EGR_INJ_PKT_TYP_IPV4_PREROUTE                        3098520           3
+1281  PARSE_EGR_INJ_PKT_TYP_IPV6_PREROUTE                        1966274           2
+1282  PARSE_EGR_INJ_PREROUTE_PUNT_FLAG                                 4           0
+1283  PARSE_EGR_INJ_PKT_TYP_IPV6_LINK_LOCAL                       205943           0
+1287  PARSE_LC_INJ_FAB_CNT                                        954985           1
+1288  PARSE_LC_INJ_PORT_CNT                                      3304551           3
+1289  PARSE_LC_INJ_DIAGS_CNT                                       16803           0
+1433  PARSE_SPAN_LPBK                                          299280573         297
+
+
+Show global stats counters for NP1, revision v2
+
+Last clearing of counters for this NP: NEVER 
+
+Read 55 non-zero NP counters:
+Offset  Counter                                               FrameValue   Rate (pps)
+-------------------------------------------------------------------------------------
+  16  MDF_TX_LC_CPU                                             82365585          82
+  17  MDF_TX_WIRE                                            81240809893       80523
+  21  MDF_TX_FABRIC                                          66258375716       65673
+  33  PARSE_FAB_RECEIVE_CNT                                  81239647285       80522
+  37  PARSE_INTR_RECEIVE_CNT                                   522894103         518
+  41  PARSE_INJ_RECEIVE_CNT                                      1865313           2
+  45  PARSE_ENET_RECEIVE_CNT                                 66342686316       65756
+  49  PARSE_TM_LOOP_RECEIVE_CNT                                  4864481           5
+  63  DBG_RSV_EP_L_RSV_ING_L3_IFIB                               5399368           5
+  64  DBG_RSV_EP_L_RSV_ING_L3_IFIB_MATCH                         5399368           5
+  65  DBG_RSV_EP_L_RSV_ING_L3_IFIB_PUNT_LOCAL                     444542           0
+  67  DBG_RSV_EP_L_RSV_ING_L3_RSLTS_MATCH                        5399225           5
+  68  DBG_RSV_EP_L_RSV_ING_PUNT                                 86716073          86
+ 124  RSV_DROP_IPV4_DROP_NULL_RTE                               10315379          10
+ 167  RSV_DROP_IPV4_URPF_CHK                                      114139           0
+ 258  RSV_DROP_IN_L3_NOT_MYMAC                                       113           0
+ 304  RSV_ING_VPWS_INVALID_XID_DROP                               564055           1
+ 469  RSV_EGR_IPV6_LINK_LOCAL                                      28771           0
+ 539  MODIFY_PUNT_REASON_MISS_DROP                                     4           0
+ 599  MDF_LB_TM_LPBK0                                            4864480           5
+ 774  PUNT_CDP                                                     16718           0
+ 776  PUNT_ARP                                                  72049056          71
+ 790  PUNT_DIAGS                                                   16803           0
+ 806  PUNT_MSTP                                                   501891           0
+ 840  PUNT_TTL_EXCEEDED                                           112817           0
+ 850  PUNT_ADJ                                                    636668           1
+ 862  PUNT_IPV6_HOP_BY_HOP                                             5           0
+ 902  PUNT_STATISTICS                                            8346003           8
+ 904  PUNT_DIAGS_RSP_ACT                                           16807           0
+ 906  PUNT_DIAGS_RSP_STBY                                          16809           0
+ 908  PUNT_NETIO_RP_TO_LC_CPU                                       1234           0
+ 946  PUNT_IPV6_ADJ_NULL_RTE                                       62925           0
+ 958  PUNT_LLDP                                                    33460           0
+1000  PUNT_UDLD                                                   143320           0
+1036  PUNT_IFIB_OSPF_OPT                                             143           0
+1233  PRS_HEALTH_MON                                             4864479           5
+1242  INTR_FRAME_TYPE_7                                          8346005           8
+1267  PARSE_ING_IPV6_LINK_LOCAL                                   608939           1
+1271  PARSE_RSP_INJ_FAB_CNT                                      4786047           5
+1274  PARSE_RSP_INJ_DIAGS_CNT                                      33616           0
+1275  PARSE_EGR_INJ_PKT_TYP_UNKNOWN                                 1229           0
+1276  PARSE_EGR_INJ_PKT_TYP_IPV4                                  768154           1
+1277  PARSE_EGR_INJ_PKT_TYP_IPV6                                  761440           1
+1280  PARSE_EGR_INJ_PKT_TYP_IPV4_PREROUTE                        1906000           2
+1281  PARSE_EGR_INJ_PKT_TYP_IPV6_PREROUTE                        1349224           1
+1282  PARSE_EGR_INJ_PREROUTE_PUNT_FLAG                                 4           0
+1283  PARSE_EGR_INJ_PKT_TYP_IPV6_LINK_LOCAL                        28771           0
+1287  PARSE_LC_INJ_FAB_CNT                                         14458           0
+1288  PARSE_LC_INJ_PORT_CNT                                      1834052           2
+1289  PARSE_LC_INJ_DIAGS_CNT                                       16803           0
+1307  PARSE_DROP_IN_UIDB_DOWN                                          3           0
+1360  PARSE_MSTP_DOT1D                                            501891           0
+1412  PARSE_LLDP                                                   33460           0
+1413  UNKNOWN_L2_ON_L3_DISCARD                                         1           0
+1432  PARSE_UDLD                                                  160038           0
+
+RP/0/RSP0/CPU0:cr02.sam.ic#
+RP/0/RSP0/CPU0:cr02.sam.ic#
+RP/0/RSP0/CPU0:cr02.sam.ic#
+RP/0/RSP0/CPU0:cr02.sam.ic#show controllers np counters all location 0/7/CPU0 
+Thu Oct  7 16:55:35.715 KST
+
+                Node: 0/7/CPU0:
+----------------------------------------------------------------
+
+Show global stats counters for NP0, revision v2
+
+Last clearing of counters for this NP: NEVER 
+
+Read 59 non-zero NP counters:
+Offset  Counter                                               FrameValue   Rate (pps)
+-------------------------------------------------------------------------------------
+  16  MDF_TX_LC_CPU                                              8980478           9
+  17  MDF_TX_WIRE                                            85729602301       84970
+  21  MDF_TX_FABRIC                                          90247098576       89448
+  33  PARSE_FAB_RECEIVE_CNT                                  85728919262       84970
+  37  PARSE_INTR_RECEIVE_CNT                                   521566384         517
+  41  PARSE_INJ_RECEIVE_CNT                                      2342915           2
+  45  PARSE_ENET_RECEIVE_CNT                                 90337476266       89537
+  49  PARSE_TM_LOOP_RECEIVE_CNT                                  4864558           5
+  53  PARSE_TOP_LOOP_RECEIVE_CNT                                       1           0
+  63  DBG_RSV_EP_L_RSV_ING_L3_IFIB                              15878061          16
+  64  DBG_RSV_EP_L_RSV_ING_L3_IFIB_MATCH                        15878061          16
+  65  DBG_RSV_EP_L_RSV_ING_L3_IFIB_PUNT_LOCAL                     645949           1
+  67  DBG_RSV_EP_L_RSV_ING_L3_RSLTS_MATCH                       15877911          16
+  68  DBG_RSV_EP_L_RSV_ING_PUNT                                 23424799          23
+ 118  RSV_DROP_IPV4_TXADJ_NO_MATCH                                     1           0
+ 120  RSV_DROP_IPV6_TXADJ_NO_MATCH                                     1           0
+ 124  RSV_DROP_IPV4_DROP_NULL_RTE                               90054681          89
+ 250  RSV_DROP_IFIB_TTL_CHECK                                          1           0
+ 258  RSV_DROP_IN_L3_NOT_MYMAC                                         1           0
+ 469  RSV_EGR_IPV6_LINK_LOCAL                                      50169           0
+ 514  MDF_PIPE_LPBK                                                    1           0
+ 532  MDF_PUNT_POLICE_DROP                                         12474           0
+ 539  MODIFY_PUNT_REASON_MISS_DROP                                     3           0
+ 599  MDF_LB_TM_LPBK0                                            4864557           5
+ 776  PUNT_ARP                                                     64748           0
+ 777  PUNT_ARP_EXCD                                                11579           0
+ 782  PUNT_LOOP                                                    33674           0
+ 783  PUNT_LOOP_EXCD                                                  16           0
+ 790  PUNT_DIAGS                                                   16803           0
+ 840  PUNT_TTL_EXCEEDED                                            36734           0
+ 850  PUNT_ADJ                                                    830551           1
+ 862  PUNT_IPV6_HOP_BY_HOP                                             6           0
+ 864  PUNT_IPV6_TTL_ERROR                                              1           0
+ 902  PUNT_STATISTICS                                            7010100           7
+ 904  PUNT_DIAGS_RSP_ACT                                           16809           0
+ 906  PUNT_DIAGS_RSP_STBY                                          16810           0
+ 908  PUNT_NETIO_RP_TO_LC_CPU                                       2402           0
+ 946  PUNT_IPV6_ADJ_NULL_RTE                                       52099           0
+1000  PUNT_UDLD                                                   287263           0
+1036  PUNT_IFIB_OSPF_OPT                                             149           0
+1233  PRS_HEALTH_MON                                             4864556           5
+1242  INTR_FRAME_TYPE_7                                          7010101           7
+1256  DBG_PRS_EP_L_PRS_PL_L2TP_DECAP_PASS2                             1           0
+1267  PARSE_ING_IPV6_LINK_LOCAL                                   211563           0
+1271  PARSE_RSP_INJ_FAB_CNT                                     11467930          11
+1274  PARSE_RSP_INJ_DIAGS_CNT                                      33619           0
+1275  PARSE_EGR_INJ_PKT_TYP_UNKNOWN                                 2395           0
+1276  PARSE_EGR_INJ_PKT_TYP_IPV4                                 4579113           5
+1277  PARSE_EGR_INJ_PKT_TYP_IPV6                                 2115285           2
+1280  PARSE_EGR_INJ_PKT_TYP_IPV4_PREROUTE                        2837094           3
+1281  PARSE_EGR_INJ_PKT_TYP_IPV6_PREROUTE                        1934043           2
+1282  PARSE_EGR_INJ_PREROUTE_PUNT_FLAG                                 5           0
+1283  PARSE_EGR_INJ_PKT_TYP_IPV6_LINK_LOCAL                        50169           0
+1287  PARSE_LC_INJ_FAB_CNT                                        776552           1
+1288  PARSE_LC_INJ_PORT_CNT                                      1549560           2
+1289  PARSE_LC_INJ_DIAGS_CNT                                       16803           0
+1307  PARSE_DROP_IN_UIDB_DOWN                                          2           0
+1425  L2TP_ING_DECAP_VER_DROP                                          1           0
+1432  PARSE_UDLD                                                  287263           0
+
+
+Show global stats counters for NP1, revision v2
+
+Last clearing of counters for this NP: NEVER 
+
+Read 51 non-zero NP counters:
+Offset  Counter                                               FrameValue   Rate (pps)
+-------------------------------------------------------------------------------------
+  16  MDF_TX_LC_CPU                                             26739881          27
+  17  MDF_TX_WIRE                                              540016815         535
+  21  MDF_TX_FABRIC                                            165312960         164
+  33  PARSE_FAB_RECEIVE_CNT                                    539358434         535
+  37  PARSE_INTR_RECEIVE_CNT                                   521948051         517
+  41  PARSE_INJ_RECEIVE_CNT                                      1693813           2
+  45  PARSE_ENET_RECEIVE_CNT                                   183626928         182
+  49  PARSE_TM_LOOP_RECEIVE_CNT                                  4864558           5
+  53  PARSE_TOP_LOOP_RECEIVE_CNT                                       1           0
+  63  DBG_RSV_EP_L_RSV_ING_L3_IFIB                               9959002          10
+  64  DBG_RSV_EP_L_RSV_ING_L3_IFIB_MATCH                         9958996          10
+  65  DBG_RSV_EP_L_RSV_ING_L3_IFIB_PUNT_LOCAL                     133226           0
+  67  DBG_RSV_EP_L_RSV_ING_L3_RSLTS_MATCH                        9958913          10
+  68  DBG_RSV_EP_L_RSV_ING_PUNT                                 35614193          35
+ 250  RSV_DROP_IFIB_TTL_CHECK                                          2           0
+ 258  RSV_DROP_IN_L3_NOT_MYMAC                                      1277           0
+ 514  MDF_PIPE_LPBK                                                    1           0
+ 539  MODIFY_PUNT_REASON_MISS_DROP                                     3           0
+ 599  MDF_LB_TM_LPBK0                                            4864557           5
+ 774  PUNT_CDP                                                     18600           0
+ 776  PUNT_ARP                                                  17515599          17
+ 790  PUNT_DIAGS                                                   16803           0
+ 806  PUNT_MSTP                                                   501834           0
+ 822  PUNT_IPv4_OPTIONS                                               42           0
+ 850  PUNT_ADJ                                                    980432           1
+ 852  PUNT_UNKNOWN_IFIB                                                6           0
+ 862  PUNT_IPV6_HOP_BY_HOP                                             1           0
+ 902  PUNT_STATISTICS                                            7391762           7
+ 904  PUNT_DIAGS_RSP_ACT                                           16809           0
+ 906  PUNT_DIAGS_RSP_STBY                                          16810           0
+ 908  PUNT_NETIO_RP_TO_LC_CPU                                       4564           0
+ 958  PUNT_LLDP                                                    33393           0
+1000  PUNT_UDLD                                                   143536           0
+1036  PUNT_IFIB_OSPF_OPT                                              81           0
+1233  PRS_HEALTH_MON                                             4864556           5
+1242  INTR_FRAME_TYPE_7                                          7391763           7
+1256  DBG_PRS_EP_L_PRS_PL_L2TP_DECAP_PASS2                             1           0
+1271  PARSE_RSP_INJ_FAB_CNT                                      7343831           7
+1274  PARSE_RSP_INJ_DIAGS_CNT                                      33619           0
+1275  PARSE_EGR_INJ_PKT_TYP_UNKNOWN                                 4557           0
+1276  PARSE_EGR_INJ_PKT_TYP_IPV4                                 5706740           6
+1280  PARSE_EGR_INJ_PKT_TYP_IPV4_PREROUTE                        1632534           2
+1282  PARSE_EGR_INJ_PREROUTE_PUNT_FLAG                                 7           0
+1287  PARSE_LC_INJ_FAB_CNT                                            10           0
+1288  PARSE_LC_INJ_PORT_CNT                                      1677000           2
+1289  PARSE_LC_INJ_DIAGS_CNT                                       16803           0
+1307  PARSE_DROP_IN_UIDB_DOWN                                          1           0
+1360  PARSE_MSTP_DOT1D                                            501834           0
+1412  PARSE_LLDP                                                   33393           0
+1425  L2TP_ING_DECAP_VER_DROP                                          1           0
+1432  PARSE_UDLD                                                  162136           0
+
+RP/0/RSP0/CPU0:cr02.sam.ic#
+RP/0/RSP0/CPU0:cr02.sam.ic#
+RP/0/RSP0/CPU0:cr02.sam.ic#
+RP/0/RSP0/CPU0:cr02.sam.ic#
+RP/0/RSP0/CPU0:cr02.sam.ic#
+RP/0/RSP0/CPU0:cr02.sam.ic#
+RP/0/RSP0/CPU0:cr02.sam.ic#
+RP/0/RSP0/CPU0:cr02.sam.ic#show pfm location all
+Thu Oct  7 16:55:42.403 KST
+
+
+node: node0_RSP0_CPU0
+---------------------
+CURRENT TIME: Oct  7 16:55:42 2021
+PFM TOTAL: 0   EMERGENCY/ALERT(E/A): 0   CRITICAL(CR): 0   ERROR(ER): 0  
+-------------------------------------------------------------------------------------------------
+Raised Time         |S#|Fault Name                         |Sev|Proc_ID|Dev/Path Name |Handle    
+--------------------+--+-----------------------------------+---+-------+--------------+----------
+Mon Jan 01 00:00:000|--|NONE                               |NO |0000000|NONE          |0x00000000
+
+
+node: node0_RSP1_CPU0
+---------------------
+CURRENT TIME: Oct  7 16:55:42 2021
+PFM TOTAL: 0   EMERGENCY/ALERT(E/A): 0   CRITICAL(CR): 0   ERROR(ER): 0  
+-------------------------------------------------------------------------------------------------
+Raised Time         |S#|Fault Name                         |Sev|Proc_ID|Dev/Path Name |Handle    
+--------------------+--+-----------------------------------+---+-------+--------------+----------
+Mon Jan 01 00:00:000|--|NONE                               |NO |0000000|NONE          |0x00000000
+
+
+node: node0_0_CPU0
+---------------------
+CURRENT TIME: Oct  7 16:55:42 2021
+PFM TOTAL: 0   EMERGENCY/ALERT(E/A): 0   CRITICAL(CR): 0   ERROR(ER): 0  
+-------------------------------------------------------------------------------------------------
+Raised Time         |S#|Fault Name                         |Sev|Proc_ID|Dev/Path Name |Handle    
+--------------------+--+-----------------------------------+---+-------+--------------+----------
+Mon Jan 01 00:00:000|--|NONE                               |NO |0000000|NONE          |0x00000000
+
+
+node: node0_7_CPU0
+---------------------
+CURRENT TIME: Oct  7 16:55:42 2021
+PFM TOTAL: 0   EMERGENCY/ALERT(E/A): 0   CRITICAL(CR): 0   ERROR(ER): 0  
+-------------------------------------------------------------------------------------------------
+Raised Time         |S#|Fault Name                         |Sev|Proc_ID|Dev/Path Name |Handle    
+--------------------+--+-----------------------------------+---+-------+--------------+----------
+Mon Jan 01 00:00:000|--|NONE                               |NO |0000000|NONE          |0x00000000
+
+
+node: node0_1_CPU0
+---------------------
+CURRENT TIME: Oct  7 16:55:42 2021
+PFM TOTAL: 4   EMERGENCY/ALERT(E/A): 0   CRITICAL(CR): 0   ERROR(ER): 4  
+-------------------------------------------------------------------------------------------------
+Raised Time         |S#|Fault Name                         |Sev|Proc_ID|Dev/Path Name |Handle    
+--------------------+--+-----------------------------------+---+-------+--------------+----------
+Sep 26 00:40:46 2021|1 |DEV_SFP_COMPLIANCE_ERROR           |ER |487551 |SFP           |0x1029007 
+Sep 26 00:40:46 2021|1 |DEV_SFP_PID_NOT_SUPPORTED          |ER |487551 |SFP           |0x1029007 
+Sep 26 00:40:58 2021|1 |DEV_SFP_COMPLIANCE_ERROR           |ER |487551 |SFP           |0x102900f 
+Sep 26 00:40:58 2021|1 |DEV_SFP_PID_NOT_SUPPORTED          |ER |487551 |SFP           |0x102900f 
+
+
+node: node0_5_CPU0
+---------------------
+CURRENT TIME: Oct  7 16:55:42 2021
+PFM TOTAL: 1   EMERGENCY/ALERT(E/A): 0   CRITICAL(CR): 1   ERROR(ER): 0  
+-------------------------------------------------------------------------------------------------
+Raised Time         |S#|Fault Name                         |Sev|Proc_ID|Dev/Path Name |Handle    
+--------------------+--+-----------------------------------+---+-------+--------------+----------
+Sep 26 02:05:39 2021|7 |LOW_RX_POWER_ALARM                 |CR |168025 |XFP           |0x102a016 
+
+
+node: node0_6_CPU0
+---------------------
+CURRENT TIME: Oct  7 16:55:42 2021
+PFM TOTAL: 0   EMERGENCY/ALERT(E/A): 0   CRITICAL(CR): 0   ERROR(ER): 0  
+-------------------------------------------------------------------------------------------------
+Raised Time         |S#|Fault Name                         |Sev|Proc_ID|Dev/Path Name |Handle    
+--------------------+--+-----------------------------------+---+-------+--------------+----------
+Mon Jan 01 00:00:000|--|NONE                               |NO |0000000|NONE          |0x00000000
+
+
+node: node0_2_CPU0
+---------------------
+CURRENT TIME: Oct  7 16:55:42 2021
+PFM TOTAL: 0   EMERGENCY/ALERT(E/A): 0   CRITICAL(CR): 0   ERROR(ER): 0  
+-------------------------------------------------------------------------------------------------
+Raised Time         |S#|Fault Name                         |Sev|Proc_ID|Dev/Path Name |Handle    
+--------------------+--+-----------------------------------+---+-------+--------------+----------
+Mon Jan 01 00:00:000|--|NONE                               |NO |0000000|NONE          |0x00000000
+
+
+node: node0_3_CPU0
+---------------------
+CURRENT TIME: Oct  7 16:55:42 2021
+PFM TOTAL: 2   EMERGENCY/ALERT(E/A): 0   CRITICAL(CR): 2   ERROR(ER): 0  
+-------------------------------------------------------------------------------------------------
+Raised Time         |S#|Fault Name                         |Sev|Proc_ID|Dev/Path Name |Handle    
+--------------------+--+-----------------------------------+---+-------+--------------+----------
+Oct  5 18:14:38 2021|3 |DEV_XFP_COMPLIANCE_ERROR           |CR |245907 |XFP           |0x102a000 
+Oct  5 18:14:38 2021|3 |DEV_XFP_PID_NOT_SUPPORTED          |CR |245907 |XFP           |0x102a000 
+RP/0/RSP0/CPU0:cr02.sam.ic#
+RP/0/RSP0/CPU0:cr02.sam.ic#
+RP/0/RSP0/CPU0:cr02.sam.ic#
+RP/0/RSP0/CPU0:cr02.sam.ic#
+RP/0/RSP0/CPU0:cr02.sam.ic#
+RP/0/RSP0/CPU0:cr02.sam.ic#
+RP/0/RSP0/CPU0:cr02.sam.ic#show pfm trace 
+Thu Oct  7 16:55:50.462 KST
+3 wrapping entries (10304 possible, 64 allocated, 0 filtered, 3 total)
+Sep 26 00:36:17.036 pfm/node.log 0/RSP0/CPU0 t1  pfm_node.c:689: main: pfm_node starting! pid=217187
+Oct  7 07:33:12.887 pfm/node.log 0/RSP0/CPU0 t1  pfm_writer.c:236: pfm_log_write: Set|fab_xbar[217208]|0x101700b|XBAR_0_Slot_3
+Oct  7 07:33:22.904 pfm/node.log 0/RSP0/CPU0 t1  pfm_writer.c:236: pfm_log_write: Clear|fab_xbar[217208]|0x101700b|XBAR_0_Slot_3
+RP/0/RSP0/CPU0:cr02.sam.ic#
+RP/0/RSP0/CPU0:cr02.sam.ic#
+RP/0/RSP0/CPU0:cr02.sam.ic#
+RP/0/RSP0/CPU0:cr02.sam.ic#
+RP/0/RSP0/CPU0:cr02.sam.ic#show interfaces tenGigE 0/6/0/2
+Thu Oct  7 16:55:58.546 KST
+TenGigE0/6/0/2 is up, line protocol is up 
+  Interface state transitions: 1
+  Hardware is TenGigE, address is d46d.500e.2e4e (bia d46d.500e.2e4e)
+  Layer 1 Transport Mode is LAN
+  Description: [IN21078389] cr02.sam.ic = ipe01.sam.ia CUS
+  Internet address is 157.197.82.73/30
+  MTU 1514 bytes, BW 10000000 Kbit (Max: 10000000 Kbit)
+     reliability 255/255, txload 11/255, rxload 26/255
+  Encapsulation ARPA,
+  Full-duplex, 10000Mb/s, SR, link type is force-up
+  output flow control is off, input flow control is off
+  Carrier delay (up) is 10 msec
+  loopback not set,
+  Last link flapped 1w4d
+  ARP type ARPA, ARP timeout 04:00:00
+  Last input 00:00:00, output 00:00:00
+  Last clearing of "show interface" counters 1w4d
+  30 second input rate 1056553000 bits/sec, 209704 packets/sec
+  30 second output rate 438277000 bits/sec, 144318 packets/sec
+     113814015520 packets input, 65037487651774 bytes, 19256284 total input drops
+     0 drops for unrecognized upper-level protocol
+     Received 826 broadcast packets, 1196373 multicast packets
+              0 runts, 0 giants, 0 throttles, 0 parity
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored, 0 abort
+     75492218343 packets output, 27775173728202 bytes, 0 total output drops
+     Output 55 broadcast packets, 2324269 multicast packets
+     0 output errors, 0 underruns, 0 applique, 0 resets
+     0 output buffer failures, 0 output buffers swapped out
+     1 carrier transitions
+
+
+RP/0/RSP0/CPU0:cr02.sam.ic#
+RP/0/RSP0/CPU0:cr02.sam.ic#
+RP/0/RSP0/CPU0:cr02.sam.ic#
+RP/0/RSP0/CPU0:cr02.sam.ic#show interfaces tenGigE 0/7/0/2
+Thu Oct  7 16:56:02.977 KST
+TenGigE0/7/0/2 is up, line protocol is up 
+  Interface state transitions: 1
+  Hardware is TenGigE, address is e0ac.f16d.656a (bia e0ac.f16d.656a)
+  Layer 1 Transport Mode is LAN
+  Description: [IN21078391] cr02.sam.ic = ipe02.sam.ia CUS
+  Internet address is 157.197.82.77/30
+  MTU 1514 bytes, BW 10000000 Kbit (Max: 10000000 Kbit)
+     reliability 255/255, txload 12/255, rxload 23/255
+  Encapsulation ARPA,
+  Full-duplex, 10000Mb/s, SR, link type is force-up
+  output flow control is off, input flow control is off
+  Carrier delay (up) is 10 msec
+  loopback not set,
+  Last link flapped 1w4d
+  ARP type ARPA, ARP timeout 04:00:00
+  Last input 00:00:00, output 00:00:00
+  Last clearing of "show interface" counters never
+  30 second input rate 936307000 bits/sec, 204101 packets/sec
+  30 second output rate 495616000 bits/sec, 163770 packets/sec
+     90230605067 packets input, 44194817027394 bytes, 15325352 total input drops
+     0 drops for unrecognized upper-level protocol
+     Received 839 broadcast packets, 1189802 multicast packets
+              0 runts, 0 giants, 0 throttles, 0 parity
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored, 0 abort
+     85684235135 packets output, 24367798824220 bytes, 0 total output drops
+     Output 59 broadcast packets, 2319038 multicast packets
+     0 output errors, 0 underruns, 0 applique, 0 resets
+     0 output buffer failures, 0 output buffers swapped out
+     1 carrier transitions
+
+
+RP/0/RSP0/CPU0:cr02.sam.ic#
+RP/0/RSP0/CPU0:cr02.sam.ic#
+RP/0/RSP0/CPU0:cr02.sam.ic#
+RP/0/RSP0/CPU0:cr02.sam.ic#
+RP/0/RSP0/CPU0:cr02.sam.ic#
+RP/0/RSP0/CPU0:cr02.sam.ic#
+RP/0/RSP0/CPU0:cr02.sam.ic#
+RP/0/RSP0/CPU0:cr02.sam.ic#show interfaces tenGigE 0/6/0/2
+Thu Oct  7 16:56:11.751 KST
+TenGigE0/6/0/2 is up, line protocol is up 
+  Interface state transitions: 1
+  Hardware is TenGigE, address is d46d.500e.2e4e (bia d46d.500e.2e4e)
+  Layer 1 Transport Mode is LAN
+  Description: [IN21078389] cr02.sam.ic = ipe01.sam.ia CUS
+  Internet address is 157.197.82.73/30
+  MTU 1514 bytes, BW 10000000 Kbit (Max: 10000000 Kbit)
+     reliability 255/255, txload 11/255, rxload 26/255
+  Encapsulation ARPA,
+  Full-duplex, 10000Mb/s, SR, link type is force-up
+  output flow control is off, input flow control is off
+  Carrier delay (up) is 10 msec
+  loopback not set,
+  Last link flapped 1w4d
+  ARP type ARPA, ARP timeout 04:00:00
+  Last input 00:00:00, output 00:00:00
+  Last clearing of "show interface" counters 1w4d
+  30 second input rate 1040676000 bits/sec, 208702 packets/sec
+  30 second output rate 440321000 bits/sec, 143244 packets/sec
+     113816706647 packets input, 65039123336087 bytes, 19256544 total input drops
+     0 drops for unrecognized upper-level protocol
+     Received 826 broadcast packets, 1196391 multicast packets
+              0 runts, 0 giants, 0 throttles, 0 parity
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored, 0 abort
+     75494119634 packets output, 27775921017824 bytes, 0 total output drops
+     Output 55 broadcast packets, 2324299 multicast packets
+     0 output errors, 0 underruns, 0 applique, 0 resets
+     0 output buffer failures, 0 output buffers swapped out
+     1 carrier transitions
+
+
+RP/0/RSP0/CPU0:cr02.sam.ic# 
+RP/0/RSP0/CPU0:cr02.sam.ic#
+RP/0/RSP0/CPU0:cr02.sam.ic#
+RP/0/RSP0/CPU0:cr02.sam.ic#
+RP/0/RSP0/CPU0:cr02.sam.ic#show interfaces tenGigE 0/6/0/2
+Thu Oct  7 16:56:13.987 KST
+TenGigE0/6/0/2 is up, line protocol is up 
+  Interface state transitions: 1
+  Hardware is TenGigE, address is d46d.500e.2e4e (bia d46d.500e.2e4e)
+  Layer 1 Transport Mode is LAN
+  Description: [IN21078389] cr02.sam.ic = ipe01.sam.ia CUS
+  Internet address is 157.197.82.73/30
+  MTU 1514 bytes, BW 10000000 Kbit (Max: 10000000 Kbit)
+     reliability 255/255, txload 11/255, rxload 26/255
+  Encapsulation ARPA,
+  Full-duplex, 10000Mb/s, SR, link type is force-up
+  output flow control is off, input flow control is off
+  Carrier delay (up) is 10 msec
+  loopback not set,
+  Last link flapped 1w4d
+  ARP type ARPA, ARP timeout 04:00:00
+  Last input 00:00:00, output 00:00:00
+  Last clearing of "show interface" counters 1w4d
+  30 second input rate 1024757000 bits/sec, 206917 packets/sec
+  30 second output rate 442470000 bits/sec, 143496 packets/sec
+     113817156355 packets input, 65039393204342 bytes, 19256605 total input drops
+     0 drops for unrecognized upper-level protocol
+     Received 826 broadcast packets, 1196392 multicast packets
+              0 runts, 0 giants, 0 throttles, 0 parity
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored, 0 abort
+     75494444213 packets output, 27776052339169 bytes, 0 total output drops
+     Output 55 broadcast packets, 2324305 multicast packets
+     0 output errors, 0 underruns, 0 applique, 0 resets
+     0 output buffer failures, 0 output buffers swapped out
+     1 carrier transitions
+
+
+RP/0/RSP0/CPU0:cr02.sam.ic#
+RP/0/RSP0/CPU0:cr02.sam.ic#
+RP/0/RSP0/CPU0:cr02.sam.ic#
+RP/0/RSP0/CPU0:cr02.sam.ic#show interfaces tenGigE 0/6/0/2
+Thu Oct  7 16:56:15.946 KST
+TenGigE0/6/0/2 is up, line protocol is up 
+  Interface state transitions: 1
+  Hardware is TenGigE, address is d46d.500e.2e4e (bia d46d.500e.2e4e)
+  Layer 1 Transport Mode is LAN
+  Description: [IN21078389] cr02.sam.ic = ipe01.sam.ia CUS
+  Internet address is 157.197.82.73/30
+  MTU 1514 bytes, BW 10000000 Kbit (Max: 10000000 Kbit)
+     reliability 255/255, txload 11/255, rxload 26/255
+  Encapsulation ARPA,
+  Full-duplex, 10000Mb/s, SR, link type is force-up
+  output flow control is off, input flow control is off
+  Carrier delay (up) is 10 msec
+  loopback not set,
+  Last link flapped 1w4d
+  ARP type ARPA, ARP timeout 04:00:00
+  Last input 00:00:00, output 00:00:00
+  Last clearing of "show interface" counters 1w4d
+  30 second input rate 1020118000 bits/sec, 206410 packets/sec
+  30 second output rate 441800000 bits/sec, 143145 packets/sec
+     113817554533 packets input, 65039635234333 bytes, 19256649 total input drops
+     0 drops for unrecognized upper-level protocol
+     Received 826 broadcast packets, 1196394 multicast packets
+              0 runts, 0 giants, 0 throttles, 0 parity
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored, 0 abort
+     75494712838 packets output, 27776152029108 bytes, 0 total output drops
+     Output 55 broadcast packets, 2324308 multicast packets
+     0 output errors, 0 underruns, 0 applique, 0 resets
+     0 output buffer failures, 0 output buffers swapped out
+     1 carrier transitions
+
+
+RP/0/RSP0/CPU0:cr02.sam.ic#
+RP/0/RSP0/CPU0:cr02.sam.ic#
+RP/0/RSP0/CPU0:cr02.sam.ic#
+RP/0/RSP0/CPU0:cr02.sam.ic#
+RP/0/RSP0/CPU0:cr02.sam.ic#show interfaces tenGigE 0/6/0/2
+Thu Oct  7 16:56:17.919 KST
+TenGigE0/6/0/2 is up, line protocol is up 
+  Interface state transitions: 1
+  Hardware is TenGigE, address is d46d.500e.2e4e (bia d46d.500e.2e4e)
+  Layer 1 Transport Mode is LAN
+  Description: [IN21078389] cr02.sam.ic = ipe01.sam.ia CUS
+  Internet address is 157.197.82.73/30
+  MTU 1514 bytes, BW 10000000 Kbit (Max: 10000000 Kbit)
+     reliability 255/255, txload 11/255, rxload 26/255
+  Encapsulation ARPA,
+  Full-duplex, 10000Mb/s, SR, link type is force-up
+  output flow control is off, input flow control is off
+  Carrier delay (up) is 10 msec
+  loopback not set,
+  Last link flapped 1w4d
+  ARP type ARPA, ARP timeout 04:00:00
+  Last input 00:00:00, output 00:00:00
+  Last clearing of "show interface" counters 1w4d
+  30 second input rate 1019994000 bits/sec, 206425 packets/sec
+  30 second output rate 441812000 bits/sec, 143152 packets/sec
+     113817970866 packets input, 65039886090075 bytes, 19256677 total input drops
+     0 drops for unrecognized upper-level protocol
+     Received 826 broadcast packets, 1196397 multicast packets
+              0 runts, 0 giants, 0 throttles, 0 parity
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored, 0 abort
+     75494979545 packets output, 27776248275954 bytes, 0 total output drops
+     Output 55 broadcast packets, 2324313 multicast packets
+     0 output errors, 0 underruns, 0 applique, 0 resets
+     0 output buffer failures, 0 output buffers swapped out
+     1 carrier transitions
+
+
+RP/0/RSP0/CPU0:cr02.sam.ic#
+RP/0/RSP0/CPU0:cr02.sam.ic#
+RP/0/RSP0/CPU0:cr02.sam.ic#
+RP/0/RSP0/CPU0:cr02.sam.ic#
+RP/0/RSP0/CPU0:cr02.sam.ic#show interfaces tenGigE 0/7/0/2
+Thu Oct  7 16:56:21.660 KST
+TenGigE0/7/0/2 is up, line protocol is up 
+  Interface state transitions: 1
+  Hardware is TenGigE, address is e0ac.f16d.656a (bia e0ac.f16d.656a)
+  Layer 1 Transport Mode is LAN
+  Description: [IN21078391] cr02.sam.ic = ipe02.sam.ia CUS
+  Internet address is 157.197.82.77/30
+  MTU 1514 bytes, BW 10000000 Kbit (Max: 10000000 Kbit)
+     reliability 255/255, txload 12/255, rxload 23/255
+  Encapsulation ARPA,
+  Full-duplex, 10000Mb/s, SR, link type is force-up
+  output flow control is off, input flow control is off
+  Carrier delay (up) is 10 msec
+  loopback not set,
+  Last link flapped 1w4d
+  ARP type ARPA, ARP timeout 04:00:00
+  Last input 00:00:00, output 00:00:00
+  Last clearing of "show interface" counters never
+  30 second input rate 905507000 bits/sec, 201484 packets/sec
+  30 second output rate 475662000 bits/sec, 161939 packets/sec
+     90234349977 packets input, 44196892376950 bytes, 15325586 total input drops
+     0 drops for unrecognized upper-level protocol
+     Received 839 broadcast packets, 1189826 multicast packets
+              0 runts, 0 giants, 0 throttles, 0 parity
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored, 0 abort
+     85687181174 packets output, 24368847751267 bytes, 0 total output drops
+     Output 59 broadcast packets, 2319083 multicast packets
+     0 output errors, 0 underruns, 0 applique, 0 resets
+     0 output buffer failures, 0 output buffers swapped out
+     1 carrier transitions
+
+
+RP/0/RSP0/CPU0:cr02.sam.ic#
+RP/0/RSP0/CPU0:cr02.sam.ic#
+RP/0/RSP0/CPU0:cr02.sam.ic#
+RP/0/RSP0/CPU0:cr02.sam.ic#
+RP/0/RSP0/CPU0:cr02.sam.ic#show interfaces tenGigE 0/7/0/2
+Thu Oct  7 16:56:23.736 KST
+TenGigE0/7/0/2 is up, line protocol is up 
+  Interface state transitions: 1
+  Hardware is TenGigE, address is e0ac.f16d.656a (bia e0ac.f16d.656a)
+  Layer 1 Transport Mode is LAN
+  Description: [IN21078391] cr02.sam.ic = ipe02.sam.ia CUS
+  Internet address is 157.197.82.77/30
+  MTU 1514 bytes, BW 10000000 Kbit (Max: 10000000 Kbit)
+     reliability 255/255, txload 12/255, rxload 23/255
+  Encapsulation ARPA,
+  Full-duplex, 10000Mb/s, SR, link type is force-up
+  output flow control is off, input flow control is off
+  Carrier delay (up) is 10 msec
+  loopback not set,
+  Last link flapped 1w4d
+  ARP type ARPA, ARP timeout 04:00:00
+  Last input 00:00:00, output 00:00:00
+  Last clearing of "show interface" counters never
+  30 second input rate 907658000 bits/sec, 201778 packets/sec
+  30 second output rate 471783000 bits/sec, 161257 packets/sec
+     90234774064 packets input, 44197131198072 bytes, 15325627 total input drops
+     0 drops for unrecognized upper-level protocol
+     Received 839 broadcast packets, 1189828 multicast packets
+              0 runts, 0 giants, 0 throttles, 0 parity
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored, 0 abort
+     85687489519 packets output, 24368955085265 bytes, 0 total output drops
+     Output 59 broadcast packets, 2319088 multicast packets
+     0 output errors, 0 underruns, 0 applique, 0 resets
+     0 output buffer failures, 0 output buffers swapped out
+     1 carrier transitions
+
+
+RP/0/RSP0/CPU0:cr02.sam.ic#
+RP/0/RSP0/CPU0:cr02.sam.ic#
+RP/0/RSP0/CPU0:cr02.sam.ic#
+RP/0/RSP0/CPU0:cr02.sam.ic#
+RP/0/RSP0/CPU0:cr02.sam.ic#show interfaces tenGigE 0/7/0/2
+Thu Oct  7 16:56:25.689 KST
+TenGigE0/7/0/2 is up, line protocol is up 
+  Interface state transitions: 1
+  Hardware is TenGigE, address is e0ac.f16d.656a (bia e0ac.f16d.656a)
+  Layer 1 Transport Mode is LAN
+  Description: [IN21078391] cr02.sam.ic = ipe02.sam.ia CUS
+  Internet address is 157.197.82.77/30
+  MTU 1514 bytes, BW 10000000 Kbit (Max: 10000000 Kbit)
+     reliability 255/255, txload 11/255, rxload 23/255
+  Encapsulation ARPA,
+  Full-duplex, 10000Mb/s, SR, link type is force-up
+  output flow control is off, input flow control is off
+  Carrier delay (up) is 10 msec
+  loopback not set,
+  Last link flapped 1w4d
+  ARP type ARPA, ARP timeout 04:00:00
+  Last input 00:00:00, output 00:00:00
+  Last clearing of "show interface" counters never
+  30 second input rate 906552000 bits/sec, 201834 packets/sec
+  30 second output rate 466523000 bits/sec, 159796 packets/sec
+     90235166545 packets input, 44197346118981 bytes, 15325655 total input drops
+     0 drops for unrecognized upper-level protocol
+     Received 839 broadcast packets, 1189832 multicast packets
+              0 runts, 0 giants, 0 throttles, 0 parity
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored, 0 abort
+     85687784273 packets output, 24369064050023 bytes, 0 total output drops
+     Output 59 broadcast packets, 2319094 multicast packets
+     0 output errors, 0 underruns, 0 applique, 0 resets
+     0 output buffer failures, 0 output buffers swapped out
+     1 carrier transitions
+
+
+RP/0/RSP0/CPU0:cr02.sam.ic#
+RP/0/RSP0/CPU0:cr02.sam.ic#
+RP/0/RSP0/CPU0:cr02.sam.ic#
+RP/0/RSP0/CPU0:cr02.sam.ic#
+RP/0/RSP0/CPU0:cr02.sam.ic#
+RP/0/RSP0/CPU0:cr02.sam.ic#show interfaces tenGigE 0/7/0/2
+Thu Oct  7 16:56:28.000 KST
+TenGigE0/7/0/2 is up, line protocol is up 
+  Interface state transitions: 1
+  Hardware is TenGigE, address is e0ac.f16d.656a (bia e0ac.f16d.656a)
+  Layer 1 Transport Mode is LAN
+  Description: [IN21078391] cr02.sam.ic = ipe02.sam.ia CUS
+  Internet address is 157.197.82.77/30
+  MTU 1514 bytes, BW 10000000 Kbit (Max: 10000000 Kbit)
+     reliability 255/255, txload 11/255, rxload 23/255
+  Encapsulation ARPA,
+  Full-duplex, 10000Mb/s, SR, link type is force-up
+  output flow control is off, input flow control is off
+  Carrier delay (up) is 10 msec
+  loopback not set,
+  Last link flapped 1w4d
+  ARP type ARPA, ARP timeout 04:00:00
+  Last input 00:00:00, output 00:00:00
+  Last clearing of "show interface" counters never
+  30 second input rate 906565000 bits/sec, 201854 packets/sec
+  30 second output rate 466296000 bits/sec, 159739 packets/sec
+     90235626435 packets input, 44197599150694 bytes, 15325678 total input drops
+     0 drops for unrecognized upper-level protocol
+     Received 839 broadcast packets, 1189834 multicast packets
+              0 runts, 0 giants, 0 throttles, 0 parity
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored, 0 abort
+     85688158422 packets output, 24369206936342 bytes, 0 total output drops
+     Output 59 broadcast packets, 2319100 multicast packets
+     0 output errors, 0 underruns, 0 applique, 0 resets
+     0 output buffer failures, 0 output buffers swapped out
+     1 carrier transitions
+
+
+RP/0/RSP0/CPU0:cr02.sam.ic#
+RP/0/RSP0/CPU0:cr02.sam.ic#
+RP/0/RSP0/CPU0:cr02.sam.ic#
+RP/0/RSP0/CPU0:cr02.sam.ic#
+RP/0/RSP0/CPU0:cr02.sam.ic#
+RP/0/RSP0/CPU0:cr02.sam.ic#show netio idb tenGigE 0/6/0/2
+Thu Oct  7 16:56:39.874 KST
+
+
+TenGigE0/6/0/2 (handle: 0x10000240, nodeid:0x881) netio idb:
+---------------------------------
+name:                    TenGigE0_6_0_2
+interface handle:        0x10000240
+interface global index:  8
+physical media type:     30
+dchain ptr:              <0x50307100>
+echain ptr:              <0x50307284>
+fchain ptr:              <0x5030735c>
+driver cookie:           <0x50082e34>
+driver func:             <0x5008203c>
+number of subinterfaces: 4096
+subblock array size:     2
+DSNCNF:                  0x00000000
+interface stats info: 
+   IN  total pkts:          152715
+   OUT total pkts:          17512
+   IN  unknown proto pkts:  0
+   IN  unknown proto bytes: 0
+   IN  multicast pkts:      76
+   OUT multicast pkts:      0
+   IN  broadcast pkts:      0
+   OUT broadcast pkts:      0
+   IN  drop pkts:           0
+   OUT drop pkts:           0
+   IN  errors pkts:         0
+   OUT errors pkts:         0
+
+Chains
+--------------------
+Base decap chain: 
+     ether                <30>  <0x4a5c3080, 0x50311934>  <       0,        0>
+
+Protocol chains:
+---------------
+<Protocol number> (name)  Stats
+  Type  Chain_node       <caps num>  <function, context> <drop pkts, drop bytes>
+<7> (arp)   Stats IN: 0 pkts, 0 bytes; OUT: 0 pkts, 0 bytes
+    Encap: 
+     l2_adj_rewrite       <86>  <0x4f9ea6fc, 0x5035cfb8>  <       0,        0>
+     queue_fifo           <56>  <0x4f9f3600, 0x502cc968>  <       0,        0>
+     txm_nopull           <60>  <0x4fa72c60, 0x502c277c>  <       0,        0>
+    Decap: 
+     arp                  <24>  <0x49cae574, 0x00000000>  <       0,        0>
+    Fixup: 
+     l2_adj_rewrite       <86>  <0x4f9e839c, 0x00000000>  <       0,        0>
+     txm_nopull           <60>  <0x4fa72c60, 0x502c277c>  <       0,        0>
+<12> (ipv4)   Stats IN: 90030 pkts, 97036194 bytes; OUT: 0 pkts, 0 bytes
+    Encap: 
+     ipv4                 <26>  <0x49cc5974, 0x50306dac>  <  744007, 41097991>
+     ether                <30>  <0x4a5c3cb4, 0x50311934>  <       0,        0>
+     l2_adj_rewrite       <86>  <0x4f9ea6fc, 0x50358740>  <       0,        0>
+     queue_fifo           <56>  <0x4f9f3600, 0x502cc968>  <       0,        0>
+     txm_nopull           <60>  <0x4fa72c60, 0x502c277c>  <       0,        0>
+    Decap: 
+     ipv4                 <26>  <0x49cc59cc, 0x00000000>  <       0,        0>
+    Fixup: 
+     l2_adj_rewrite       <86>  <0x4f9e839c, 0x00000000>  <       0,        0>
+     txm_nopull           <60>  <0x4fa72c60, 0x502c277c>  <       0,        0>
+<19> (ipv6)   Stats IN: 62685 pkts, 6181802 bytes; OUT: 17512 pkts, 1685308 bytes
+    Encap: 
+     ipv6                 <82>  <0x4ffc1094, 0x5035cd58>  <       0,        0>
+     ether                <30>  <0x4a5c3cb4, 0x50311934>  <       0,        0>
+     l2_adj_rewrite       <86>  <0x4f9ea6fc, 0x5035ced8>  <       0,        0>
+     queue_fifo           <56>  <0x4f9f3600, 0x502cc968>  <       0,        0>
+     txm_nopull           <60>  <0x4fa72c60, 0x502c277c>  <       0,        0>
+    Decap: 
+     ipv6_preswitch       <90>  <0x4ffbfa5c, 0x5035cd58>  <       0,        0>
+     ipv6                 <82>  <0x4ffbfdc8, 0x5035cd58>  <   50757,  5244858>
+    Fixup: 
+     l2_adj_rewrite       <86>  <0x4f9e839c, 0x00000000>  <       0,        0>
+     txm_nopull           <60>  <0x4fa72c60, 0x502c277c>  <       0,        0>
+<22> (ether_sock)   Stats IN: 0 pkts, 0 bytes; OUT: 0 pkts, 0 bytes
+    Encap: 
+     ether_sock           <98>  <0x4a5c5bac, 0x50311934>  <       0,        0>
+     l2_adj_rewrite       <86>  <0x4f9ea6fc, 0x503116c4>  <       0,        0>
+     queue_fifo           <56>  <0x4f9f3600, 0x502cc968>  <       0,        0>
+     txm_nopull           <60>  <0x4fa72c60, 0x502c277c>  <       0,        0>
+    Decap: 
+     ether_sock           <98>  <0x4a5c50d0, 0x50311934>  <       0,        0>
+    Fixup: 
+     l2_adj_rewrite       <86>  <0x4f9e839c, 0x00000000>  <       0,        0>
+     txm_nopull           <60>  <0x4fa72c60, 0x502c277c>  <       0,        0>
+
+
+Protocol SAFI counts:
+--------------------
+
+       Protocol        SAFI       Pkts In    Bytes In    Pkts Out   Bytes Out
+---------------  ----------    ----------  ----------  ----------  ----------
+           ipv4     Unicast         90030    97036194           0           0
+           ipv4   Multicast             0           0           0           0
+           ipv4   Broadcast             0           0           0           0
+           ipv6     Unicast         62677     6181162         816       58752
+           ipv6   Multicast             8         640           0           0
+
+
+Node drop accounting:
+---------------------
+
+Caps <num>  (Protocol <num> Chain):
+-----------------------------------
+    DLL/function name                          Address    Drop pkts   Drop bytes
+    ----------------------------------------  ----------  ----------  ----------
+
+ipv4 <26>  (ipv4 <12> encaps):
+    /pkg/lib/libipv4_fib_switch.dll           0x49cfc670      744007    41097991
+
+ipv6 <82>  (ipv6 <19> decaps):
+    /pkg/lib/libipv6_netio.dll                0x4ffbaac4       50757     5244858
+
+RP/0/RSP0/CPU0:cr02.sam.ic#
+RP/0/RSP0/CPU0:cr02.sam.ic#
+RP/0/RSP0/CPU0:cr02.sam.ic#
+RP/0/RSP0/CPU0:cr02.sam.ic#
+RP/0/RSP0/CPU0:cr02.sam.ic#show netio idb tenGigE 0/7/0/2
+Thu Oct  7 16:56:43.722 KST
+
+
+TenGigE0/7/0/2 (handle: 0x12000240, nodeid:0x891) netio idb:
+---------------------------------
+name:                    TenGigE0_7_0_2
+interface handle:        0x12000240
+interface global index:  8
+physical media type:     30
+dchain ptr:              <0x50306420>
+echain ptr:              <0x503065a0>
+fchain ptr:              <0x50306678>
+driver cookie:           <0x50082e34>
+driver func:             <0x5008203c>
+number of subinterfaces: 4096
+subblock array size:     2
+DSNCNF:                  0x00000000
+interface stats info: 
+   IN  total pkts:          162617
+   OUT total pkts:          17511
+   IN  unknown proto pkts:  0
+   IN  unknown proto bytes: 0
+   IN  multicast pkts:      75
+   OUT multicast pkts:      0
+   IN  broadcast pkts:      0
+   OUT broadcast pkts:      0
+   IN  drop pkts:           0
+   OUT drop pkts:           0
+   IN  errors pkts:         0
+   OUT errors pkts:         0
+
+Chains
+--------------------
+Base decap chain: 
+     ether                <30>  <0x4a0df080, 0x50311934>  <       0,        0>
+
+Protocol chains:
+---------------
+<Protocol number> (name)  Stats
+  Type  Chain_node       <caps num>  <function, context> <drop pkts, drop bytes>
+<7> (arp)   Stats IN: 0 pkts, 0 bytes; OUT: 0 pkts, 0 bytes
+    Encap: 
+     l2_adj_rewrite       <86>  <0x4f2bd6fc, 0x5035cf48>  <       0,        0>
+     queue_fifo           <56>  <0x4ffaf600, 0x502cca1c>  <       0,        0>
+     txm_nopull           <60>  <0x4ffb4c60, 0x5030f2e4>  <       0,        0>
+    Decap: 
+     arp                  <24>  <0x497d8574, 0x00000000>  <       0,        0>
+    Fixup: 
+     l2_adj_rewrite       <86>  <0x4f2bb39c, 0x00000000>  <       0,        0>
+     txm_nopull           <60>  <0x4ffb4c60, 0x5030f2e4>  <       0,        0>
+<12> (ipv4)   Stats IN: 98586 pkts, 96103446 bytes; OUT: 0 pkts, 0 bytes
+    Encap: 
+     ipv4                 <26>  <0x497ef974, 0x503060c8>  <  339676, 19498818>
+     ether                <30>  <0x4a0dfcb4, 0x50311934>  <       0,        0>
+     l2_adj_rewrite       <86>  <0x4f2bd6fc, 0x50358740>  <       0,        0>
+     queue_fifo           <56>  <0x4ffaf600, 0x502cca1c>  <       0,        0>
+     txm_nopull           <60>  <0x4ffb4c60, 0x5030f2e4>  <       0,        0>
+    Decap: 
+     ipv4                 <26>  <0x497ef9cc, 0x00000000>  <       0,        0>
+    Fixup: 
+     l2_adj_rewrite       <86>  <0x4f2bb39c, 0x00000000>  <       0,        0>
+     txm_nopull           <60>  <0x4ffb4c60, 0x5030f2e4>  <       0,        0>
+<19> (ipv6)   Stats IN: 64031 pkts, 6321420 bytes; OUT: 17511 pkts, 1684562 bytes
+    Encap: 
+     ipv6                 <82>  <0x4945f094, 0x5035cdf4>  <       0,        0>
+     ether                <30>  <0x4a0dfcb4, 0x50311934>  <       0,        0>
+     l2_adj_rewrite       <86>  <0x4f2bd6fc, 0x5035cf2c>  <       0,        0>
+     queue_fifo           <56>  <0x4ffaf600, 0x502cca1c>  <       0,        0>
+     txm_nopull           <60>  <0x4ffb4c60, 0x5030f2e4>  <       0,        0>
+    Decap: 
+     ipv6_preswitch       <90>  <0x4945da5c, 0x5035cdf4>  <       0,        0>
+     ipv6                 <82>  <0x4945ddc8, 0x5035cdf4>  <   52100,  5384242>
+    Fixup: 
+     l2_adj_rewrite       <86>  <0x4f2bb39c, 0x00000000>  <       0,        0>
+     txm_nopull           <60>  <0x4ffb4c60, 0x5030f2e4>  <       0,        0>
+<22> (ether_sock)   Stats IN: 0 pkts, 0 bytes; OUT: 0 pkts, 0 bytes
+    Encap: 
+     ether_sock           <98>  <0x4a0e1bac, 0x50311934>  <       0,        0>
+     l2_adj_rewrite       <86>  <0x4f2bd6fc, 0x503116c4>  <       0,        0>
+     queue_fifo           <56>  <0x4ffaf600, 0x502cca1c>  <       0,        0>
+     txm_nopull           <60>  <0x4ffb4c60, 0x5030f2e4>  <       0,        0>
+    Decap: 
+     ether_sock           <98>  <0x4a0e10d0, 0x50311934>  <       0,        0>
+    Fixup: 
+     l2_adj_rewrite       <86>  <0x4f2bb39c, 0x00000000>  <       0,        0>
+     txm_nopull           <60>  <0x4ffb4c60, 0x5030f2e4>  <       0,        0>
+
+
+Protocol SAFI counts:
+--------------------
+
+       Protocol        SAFI       Pkts In    Bytes In    Pkts Out   Bytes Out
+---------------  ----------    ----------  ----------  ----------  ----------
+           ipv4     Unicast         98586    96103446           0           0
+           ipv4   Multicast             0           0           0           0
+           ipv4   Broadcast             0           0           0           0
+           ipv6     Unicast         64023     6320780         816       58752
+           ipv6   Multicast             8         640           0           0
+
+
+Node drop accounting:
+---------------------
+
+Caps <num>  (Protocol <num> Chain):
+-----------------------------------
+    DLL/function name                          Address    Drop pkts   Drop bytes
+    ----------------------------------------  ----------  ----------  ----------
+
+ipv4 <26>  (ipv4 <12> encaps):
+    /pkg/lib/libipv4_fib_switch.dll           0x49847670      339676    19498818
+
+ipv6 <82>  (ipv6 <19> decaps):
+    /pkg/lib/libipv6_netio.dll                0x49458ac4       52100     5384242
+
+RP/0/RSP0/CPU0:cr02.sam.ic#
+RP/0/RSP0/CPU0:cr02.sam.ic#
+RP/0/RSP0/CPU0:cr02.sam.ic#
+RP/0/RSP0/CPU0:cr02.sam.ic#
+RP/0/RSP0/CPU0:cr02.sam.ic#
+RP/0/RSP0/CPU0:cr02.sam.ic#
+RP/0/RSP0/CPU0:cr02.sam.ic#
+RP/0/RSP0/CPU0:cr02.sam.ic#show controllers tenGigE     
+TenGigE  TenGigECtrlr  
+RP/0/RSP0/CPU0:cr02.sam.ic#show controllers tenGigE
+TenGigE  TenGigECtrlr  
+RP/0/RSP0/CPU0:cr02.sam.ic#show controllers tenGigE
+TenGigE  TenGigECtrlr  
+RP/0/RSP0/CPU0:cr02.sam.ic#show controllers tenGigE 0/6/0/2 internal 
+Thu Oct  7 16:57:03.695 KST
+
+Internal data for interface: TenGigE0/6/0/2
+Port Number         : 2 
+Bay Number          : 0 
+Ifinst              : 0 
+Ifinst Subport      : 2 
+Board Type          : 0x00000237 
+Port Type           : 10GE 
+Bandwidth(Kbps)     : 10000000
+Transport mode      : LAN
+BIA MAC addr        : d46d.500e.2e4e
+Oper. MAC addr      : d46d.500e.2e4e
+Egress MAC addr     : d46d.500e.2e4e
+Port Available      : true
+Status polling is   : enabled
+Status events are   : enabled
+I/F Handle          : 0x10000240
+Cfg Link Enabled    : tx/rx enabled
+H/W Tx Enable       : yes
+MTU                 : 1514
+H/W Speed           : 10 Gbps 
+H/W Duplex          : Full 
+H/W Loopback Type   : None 
+FEC                 : Disable 
+H/W FlowCtrl Type   : None 
+H/W AutoNeg Enable  : Off 
+Rx OPD              : Disabled 
+H/W Link Defects    : (0x0000000000000000)  none
+H/W Raw Link Defects : (0x0000000000000000)  none
+Link Up             : yes
+Link Led Status     : Link up   -- Green/Amber
+Serdes hw version   : 0.4
+Serdes sw version   : 8.0
+Pluggable Present   : yes
+Pluggable Type      : 10GBASE-SR 
+Pluggable PID       : XFP-10G-MM-SR
+Pluggable Compl.    : Compliant
+Pluggable Type Supp.: Supported
+Pluggable PID Supp. : (Permit All) - Supported
+
+RP/0/RSP0/CPU0:cr02.sam.ic#
+RP/0/RSP0/CPU0:cr02.sam.ic#
+RP/0/RSP0/CPU0:cr02.sam.ic#
+RP/0/RSP0/CPU0:cr02.sam.ic#
+RP/0/RSP0/CPU0:cr02.sam.ic#show controllers tenGigE 0/7/0/2 internal 
+Thu Oct  7 16:57:07.772 KST
+
+Internal data for interface: TenGigE0/7/0/2
+Port Number         : 2 
+Bay Number          : 0 
+Ifinst              : 0 
+Ifinst Subport      : 2 
+Board Type          : 0x00000237 
+Port Type           : 10GE 
+Bandwidth(Kbps)     : 10000000
+Transport mode      : LAN
+BIA MAC addr        : e0ac.f16d.656a
+Oper. MAC addr      : e0ac.f16d.656a
+Egress MAC addr     : e0ac.f16d.656a
+Port Available      : true
+Status polling is   : enabled
+Status events are   : enabled
+I/F Handle          : 0x12000240
+Cfg Link Enabled    : tx/rx enabled
+H/W Tx Enable       : yes
+MTU                 : 1514
+H/W Speed           : 10 Gbps 
+H/W Duplex          : Full 
+H/W Loopback Type   : None 
+FEC                 : Disable 
+H/W FlowCtrl Type   : None 
+H/W AutoNeg Enable  : Off 
+Rx OPD              : Disabled 
+H/W Link Defects    : (0x0000000000000000)  none
+H/W Raw Link Defects : (0x0000000000000000)  none
+Link Up             : yes
+Link Led Status     : Link up   -- Green/Amber
+Serdes hw version   : 0.4
+Serdes sw version   : 8.0
+Pluggable Present   : yes
+Pluggable Type      : 10GBASE-SR 
+Pluggable PID       : XFP-10G-MM-SR
+Pluggable Compl.    : Compliant
+Pluggable Type Supp.: Supported
+Pluggable PID Supp. : (Permit All) - Supported
+
+RP/0/RSP0/CPU0:cr02.sam.ic#
+RP/0/RSP0/CPU0:cr02.sam.ic#
+RP/0/RSP0/CPU0:cr02.sam.ic#
+RP/0/RSP0/CPU0:cr02.sam.ic#
+RP/0/RSP0/CPU0:cr02.sam.ic#
+RP/0/RSP0/CPU0:cr02.sam.ic#
+RP/0/RSP0/CPU0:cr02.sam.ic#show controllers tenGigE 0/6/0/2 stats 
+Thu Oct  7 16:57:18.713 KST
+Statistics for interface TenGigE0/6/0/2 (cached values):
+
+Ingress: 
+    Input total bytes           = 65047566785179
+    Input good bytes            = 65047566785179
+
+    Input total packets         = 113830520693
+    Input 802.1Q frames         = 0
+    Input pause frames          = 0
+    Input pkts 64 bytes         = 7641448514
+    Input pkts 65-127 bytes     = 17865014708
+    Input pkts 128-255 bytes    = 42040380283
+    Input pkts 256-511 bytes    = 4441653033
+    Input pkts 512-1023 bytes   = 7979906693
+    Input pkts 1024-1518 bytes  = 33862117458
+    Input pkts 1519-Max bytes   = 0
+
+    Input good pkts             = 113830520693
+    Input unicast pkts          = 113829323396
+    Input multicast pkts        = 1196471
+    Input broadcast pkts        = 826
+
+    Input drop overrun          = 0
+    Input drop abort            = 0
+    Input drop invalid VLAN     = 0
+    Input drop invalid DMAC     = 0
+    Input drop invalid encap    = 0
+    Input drop other            = 0
+
+    Input error giant           = 0
+    Input error runt            = 0
+    Input error jabbers         = 0
+    Input error fragments       = 0
+    Input error CRC             = 0
+    Input error collisions      = 0
+    Input error symbol          = 0
+    Input error other           = 0
+
+    Input MIB giant             = 0
+    Input MIB jabber            = 0
+    Input MIB CRC               = 0
+
+Egress:
+    Output total bytes          = 27779608362498
+    Output good bytes           = 27779608362498
+
+    Output total packets        = 75503557731
+    Output 802.1Q frames        = 0
+    Output pause frames         = 0
+    Output pkts 64 bytes        = 12333401838
+    Output pkts 65-127 bytes    = 19815085568
+    Output pkts 128-255 bytes   = 23926761228
+    Output pkts 256-511 bytes   = 4272709482
+    Output pkts 512-1023 bytes  = 2776377775
+    Output pkts 1024-1518 bytes = 12379221834
+    Output pkts 1519-Max bytes  = 0
+
+    Output good pkts            = 75503557731
+    Output unicast pkts         = 75501233218
+    Output multicast pkts       = 2324458
+    Output broadcast pkts       = 55
+
+    Output drop underrun        = 0
+    Output drop abort           = 0
+    Output drop other           = 0
+
+    Output error other          = 0
+
+RP/0/RSP0/CPU0:cr02.sam.ic#
+RP/0/RSP0/CPU0:cr02.sam.ic#
+RP/0/RSP0/CPU0:cr02.sam.ic#
+RP/0/RSP0/CPU0:cr02.sam.ic#
+RP/0/RSP0/CPU0:cr02.sam.ic#
+RP/0/RSP0/CPU0:cr02.sam.ic#show controllers tenGigE 0/7/0/2 stats 
+Thu Oct  7 16:57:22.839 KST
+Statistics for interface TenGigE0/7/0/2 (cached values):
+
+Ingress: 
+    Input total bytes           = 44203774646865
+    Input good bytes            = 44203774646865
+
+    Input total packets         = 90246591790
+    Input 802.1Q frames         = 0
+    Input pause frames          = 0
+    Input pkts 64 bytes         = 6072241484
+    Input pkts 65-127 bytes     = 14064433168
+    Input pkts 128-255 bytes    = 41657176325
+    Input pkts 256-511 bytes    = 3229925320
+    Input pkts 512-1023 bytes   = 2190280157
+    Input pkts 1024-1518 bytes  = 23032535335
+    Input pkts 1519-Max bytes   = 0
+
+    Input good pkts             = 90246591790
+    Input unicast pkts          = 90245401043
+    Input multicast pkts        = 1189908
+    Input broadcast pkts        = 839
+
+    Input drop overrun          = 0
+    Input drop abort            = 0
+    Input drop invalid VLAN     = 0
+    Input drop invalid DMAC     = 0
+    Input drop invalid encap    = 0
+    Input drop other            = 0
+
+    Input error giant           = 0
+    Input error runt            = 0
+    Input error jabbers         = 0
+    Input error fragments       = 0
+    Input error CRC             = 0
+    Input error collisions      = 0
+    Input error symbol          = 0
+    Input error other           = 0
+
+    Input MIB giant             = 0
+    Input MIB jabber            = 0
+    Input MIB CRC               = 0
+
+Egress:
+    Output total bytes          = 24372556676863
+    Output good bytes           = 24372556676863
+
+    Output total packets        = 85696750599
+    Output 802.1Q frames        = 0
+    Output pause frames         = 0
+    Output pkts 64 bytes        = 9014191532
+    Output pkts 65-127 bytes    = 23439398844
+    Output pkts 128-255 bytes   = 38021711772
+    Output pkts 256-511 bytes   = 4634449455
+    Output pkts 512-1023 bytes  = 1838415055
+    Output pkts 1024-1518 bytes = 8748583938
+    Output pkts 1519-Max bytes  = 0
+
+    Output good pkts            = 85696750599
+    Output unicast pkts         = 85694431310
+    Output multicast pkts       = 2319230
+    Output broadcast pkts       = 59
+
+    Output drop underrun        = 0
+    Output drop abort           = 0
+    Output drop other           = 0
+
+    Output error other          = 0
+
+RP/0/RSP0/CPU0:cr02.sam.ic#
+RP/0/RSP0/CPU0:cr02.sam.ic#
+RP/0/RSP0/CPU0:cr02.sam.ic#
+RP/0/RSP0/CPU0:cr02.sam.ic#
+RP/0/RSP0/CPU0:cr02.sam.ic#
+RP/0/RSP0/CPU0:cr02.sam.ic#
