@@ -1,9 +1,9 @@
-RP/0/RSP0/CPU0:cr02.sam.ic#
-RP/0/RSP0/CPU0:cr02.sam.ic#
-RP/0/RSP0/CPU0:cr02.sam.ic#
-RP/0/RSP0/CPU0:cr02.sam.ic#
-RP/0/RSP0/CPU0:cr02.sam.ic#
-RP/0/RSP0/CPU0:cr02.sam.ic#show drops location ?
+RP/0/RSP0/CPU0:test#
+RP/0/RSP0/CPU0:test#
+RP/0/RSP0/CPU0:test#
+RP/0/RSP0/CPU0:test#
+RP/0/RSP0/CPU0:test#
+RP/0/RSP0/CPU0:test#show drops location ?
   0/0/CPU0  Fully qualified line card specification
   0/1/CPU0  Fully qualified line card specification
   0/2/CPU0  Fully qualified line card specification
@@ -12,7 +12,7 @@ RP/0/RSP0/CPU0:cr02.sam.ic#show drops location ?
   0/6/CPU0  Fully qualified line card specification
   0/7/CPU0  Fully qualified line card specification
   WORD      Fully qualified line card specification
-RP/0/RSP0/CPU0:cr02.sam.ic#show drops location 0/6/CPU0 
+RP/0/RSP0/CPU0:test#show drops location 0/6/CPU0 
 Thu Oct  7 16:53:29.168 KST
 
                 Node: 0/6/CPU0:
@@ -57,14 +57,14 @@ Ingress sp1 crc err                                          8
 Ingress sp1 align fail                                       3               
 Ingress sp1 prot err                                         1               
 ----------------------------------------------------------------
-RP/0/RSP0/CPU0:cr02.sam.ic#
-RP/0/RSP0/CPU0:cr02.sam.ic#
-RP/0/RSP0/CPU0:cr02.sam.ic#
-RP/0/RSP0/CPU0:cr02.sam.ic#
-RP/0/RSP0/CPU0:cr02.sam.ic#
-RP/0/RSP0/CPU0:cr02.sam.ic#
-RP/0/RSP0/CPU0:cr02.sam.ic#
-RP/0/RSP0/CPU0:cr02.sam.ic#show drops location 0/7/CPU0 
+RP/0/RSP0/CPU0:test#
+RP/0/RSP0/CPU0:test#
+RP/0/RSP0/CPU0:test#
+RP/0/RSP0/CPU0:test#
+RP/0/RSP0/CPU0:test#
+RP/0/RSP0/CPU0:test#
+RP/0/RSP0/CPU0:test#
+RP/0/RSP0/CPU0:test#show drops location 0/7/CPU0 
 Thu Oct  7 16:53:35.803 KST
 
                 Node: 0/7/CPU0:
@@ -115,14 +115,14 @@ Ingress sp1 crc err                                          1
 Ingress sp1 bad code                                         1               
 Ingress sp1 align fail                                       3               
 ----------------------------------------------------------------
-RP/0/RSP0/CPU0:cr02.sam.ic#
-RP/0/RSP0/CPU0:cr02.sam.ic#
-RP/0/RSP0/CPU0:cr02.sam.ic#
-RP/0/RSP0/CPU0:cr02.sam.ic#
-RP/0/RSP0/CPU0:cr02.sam.ic#
-RP/0/RSP0/CPU0:cr02.sam.ic#
-RP/0/RSP0/CPU0:cr02.sam.ic#
-RP/0/RSP0/CPU0:cr02.sam.ic#show drops  all ongoing location ?
+RP/0/RSP0/CPU0:test#
+RP/0/RSP0/CPU0:test#
+RP/0/RSP0/CPU0:test#
+RP/0/RSP0/CPU0:test#
+RP/0/RSP0/CPU0:test#
+RP/0/RSP0/CPU0:test#
+RP/0/RSP0/CPU0:test#
+RP/0/RSP0/CPU0:test#show drops  all ongoing location ?
   0/0/0        Fully qualified location specification
   0/0/1        Fully qualified location specification
   0/0/CPU0     Fully qualified location specification
@@ -148,9 +148,9 @@ RP/0/RSP0/CPU0:cr02.sam.ic#show drops  all ongoing location ?
   0/RSP1/CPU0  Fully qualified location specification
   WORD         Fully qualified location specification
   all          Run on all nodes(cisco-support)
-RP/0/RSP0/CPU0:cr02.sam.ic#show drops  all ongoing location 
+RP/0/RSP0/CPU0:test#show drops  all ongoing location 
 % Incomplete command.
-RP/0/RSP0/CPU0:cr02.sam.ic#show drops  all ongoing location 0/6/0 
+RP/0/RSP0/CPU0:test#show drops  all ongoing location 0/6/0 
 Thu Oct  7 16:53:57.329 KST
 
 
@@ -178,9 +178,9 @@ show netio drops:
 [netio:Interface: TenGigE0/6/0/3] /pkg/lib/libipv4_fib_switch.dll: 12
 
 
-RP/0/RSP0/CPU0:cr02.sam.ic#
-RP/0/RSP0/CPU0:cr02.sam.ic#
-RP/0/RSP0/CPU0:cr02.sam.ic#show drops  all ongoing location 0/7/0 
+RP/0/RSP0/CPU0:test#
+RP/0/RSP0/CPU0:test#
+RP/0/RSP0/CPU0:test#show drops  all ongoing location 0/7/0 
 Thu Oct  7 16:54:04.985 KST
 
 
@@ -214,13 +214,13 @@ show netio drops:
 [netio:Interface: TenGigE0/7/0/3] /pkg/lib/libipv4_fib_switch.dll: 8
 
 
-RP/0/RSP0/CPU0:cr02.sam.ic#
-RP/0/RSP0/CPU0:cr02.sam.ic#
-RP/0/RSP0/CPU0:cr02.sam.ic#
-RP/0/RSP0/CPU0:cr02.sam.ic#
-RP/0/RSP0/CPU0:cr02.sam.ic#show controllers fa
+RP/0/RSP0/CPU0:test#
+RP/0/RSP0/CPU0:test#
+RP/0/RSP0/CPU0:test#
+RP/0/RSP0/CPU0:test#
+RP/0/RSP0/CPU0:test#show controllers fa
 FastEthernet  fabric  fabricmgr  
-RP/0/RSP0/CPU0:cr02.sam.ic#show controllers fabric fia drops ingress location ?
+RP/0/RSP0/CPU0:test#show controllers fabric fia drops ingress location ?
   0/0/0        Fully qualified location specification
   0/0/1        Fully qualified location specification
   0/0/CPU0     Fully qualified location specification
@@ -245,19 +245,19 @@ RP/0/RSP0/CPU0:cr02.sam.ic#show controllers fabric fia drops ingress location ?
   0/RSP0/CPU0  Fully qualified location specification
   0/RSP1/CPU0  Fully qualified location specification
   WORD         Fully qualified location specification
-RP/0/RSP0/CPU0:cr02.sam.ic#show controllers fabric fia drops ingress location 0/6/0
+RP/0/RSP0/CPU0:test#show controllers fabric fia drops ingress location 0/6/0
 Thu Oct  7 16:54:23.901 KST
 Node is not ready or the command is not supported
-RP/0/RSP0/CPU0:cr02.sam.ic#show controllers fabric fia drops ingress location 0/6/0 ?
+RP/0/RSP0/CPU0:test#show controllers fabric fia drops ingress location 0/6/0 ?
   |     Output Modifiers
   <cr>  
-RP/0/RSP0/CPU0:cr02.sam.ic#show controllers fabric fia drops ingress location 0/6/0 
+RP/0/RSP0/CPU0:test#show controllers fabric fia drops ingress location 0/6/0 
 Thu Oct  7 16:54:39.587 KST
 Node is not ready or the command is not supported
-RP/0/RSP0/CPU0:cr02.sam.ic#show controllers fabric fia drops ingress location 0/7/0
+RP/0/RSP0/CPU0:test#show controllers fabric fia drops ingress location 0/7/0
 Thu Oct  7 16:54:42.240 KST
 Node is not ready or the command is not supported
-RP/0/RSP0/CPU0:cr02.sam.ic#show controllers fabric fia drops ingress location 0/7/CPU0 
+RP/0/RSP0/CPU0:test#show controllers fabric fia drops ingress location 0/7/CPU0 
 Thu Oct  7 16:54:47.247 KST
 
  ********** FIA-0 **********
@@ -319,11 +319,11 @@ Category: in_drop-1
                                  sp1 bad code                        1
                                sp1 align fail                        3
                                  sp1 prot err                        0
-RP/0/RSP0/CPU0:cr02.sam.ic#
-RP/0/RSP0/CPU0:cr02.sam.ic#
-RP/0/RSP0/CPU0:cr02.sam.ic#
-RP/0/RSP0/CPU0:cr02.sam.ic#
-RP/0/RSP0/CPU0:cr02.sam.ic#show controllers fabric fia drops ingress location 0/6/CPU0 
+RP/0/RSP0/CPU0:test#
+RP/0/RSP0/CPU0:test#
+RP/0/RSP0/CPU0:test#
+RP/0/RSP0/CPU0:test#
+RP/0/RSP0/CPU0:test#show controllers fabric fia drops ingress location 0/6/CPU0 
 Thu Oct  7 16:54:51.112 KST
 
  ********** FIA-0 **********
@@ -385,18 +385,18 @@ Category: in_drop-1
                                  sp1 bad code                        0
                                sp1 align fail                        3
                                  sp1 prot err                        1
-RP/0/RSP0/CPU0:cr02.sam.ic#
-RP/0/RSP0/CPU0:cr02.sam.ic#
-RP/0/RSP0/CPU0:cr02.sam.ic#
-RP/0/RSP0/CPU0:cr02.sam.ic#
-RP/0/RSP0/CPU0:cr02.sam.ic#
-RP/0/RSP0/CPU0:cr02.sam.ic#
-RP/0/RSP0/CPU0:cr02.sam.ic#
-RP/0/RSP0/CPU0:cr02.sam.ic#
-RP/0/RSP0/CPU0:cr02.sam.ic#
-RP/0/RSP0/CPU0:cr02.sam.ic#
-RP/0/RSP0/CPU0:cr02.sam.ic#
-RP/0/RSP0/CPU0:cr02.sam.ic#show controllers np soft-errors all all  location ?
+RP/0/RSP0/CPU0:test#
+RP/0/RSP0/CPU0:test#
+RP/0/RSP0/CPU0:test#
+RP/0/RSP0/CPU0:test#
+RP/0/RSP0/CPU0:test#
+RP/0/RSP0/CPU0:test#
+RP/0/RSP0/CPU0:test#
+RP/0/RSP0/CPU0:test#
+RP/0/RSP0/CPU0:test#
+RP/0/RSP0/CPU0:test#
+RP/0/RSP0/CPU0:test#
+RP/0/RSP0/CPU0:test#show controllers np soft-errors all all  location ?
   0/0/CPU0  Fully qualified line card specification
   0/1/CPU0  Fully qualified line card specification
   0/2/CPU0  Fully qualified line card specification
@@ -405,7 +405,7 @@ RP/0/RSP0/CPU0:cr02.sam.ic#show controllers np soft-errors all all  location ?
   0/6/CPU0  Fully qualified line card specification
   0/7/CPU0  Fully qualified line card specification
   WORD      Fully qualified line card specification
-RP/0/RSP0/CPU0:cr02.sam.ic#show controllers np soft-errors all all  location 0/6/cpU0 
+RP/0/RSP0/CPU0:test#show controllers np soft-errors all all  location 0/6/cpU0 
 Thu Oct  7 16:55:11.142 KST
 
                 Node: 0/6/CPU0:
@@ -530,18 +530,18 @@ NP   Blk     Name       Ignored     Fixed       Sticky      Reset     Fast Reset
  1    54         STAT          0           0           0           0           0
  1    55         STAT          0           0           0           0           0
  1    56     STAT_ALL          0           0           0           0           0
-RP/0/RSP0/CPU0:cr02.sam.ic#
-RP/0/RSP0/CPU0:cr02.sam.ic#
-RP/0/RSP0/CPU0:cr02.sam.ic#
-RP/0/RSP0/CPU0:cr02.sam.ic#
-RP/0/RSP0/CPU0:cr02.sam.ic#
-RP/0/RSP0/CPU0:cr02.sam.ic#
-RP/0/RSP0/CPU0:cr02.sam.ic#
-RP/0/RSP0/CPU0:cr02.sam.ic#
-RP/0/RSP0/CPU0:cr02.sam.ic#
-RP/0/RSP0/CPU0:cr02.sam.ic#
-RP/0/RSP0/CPU0:cr02.sam.ic#
-RP/0/RSP0/CPU0:cr02.sam.ic#show controllers np soft-errors all all  location 0/7/cpU0 
+RP/0/RSP0/CPU0:test#
+RP/0/RSP0/CPU0:test#
+RP/0/RSP0/CPU0:test#
+RP/0/RSP0/CPU0:test#
+RP/0/RSP0/CPU0:test#
+RP/0/RSP0/CPU0:test#
+RP/0/RSP0/CPU0:test#
+RP/0/RSP0/CPU0:test#
+RP/0/RSP0/CPU0:test#
+RP/0/RSP0/CPU0:test#
+RP/0/RSP0/CPU0:test#
+RP/0/RSP0/CPU0:test#show controllers np soft-errors all all  location 0/7/cpU0 
 Thu Oct  7 16:55:15.475 KST
 
                 Node: 0/7/CPU0:
@@ -666,14 +666,14 @@ NP   Blk     Name       Ignored     Fixed       Sticky      Reset     Fast Reset
  1    54         STAT          0           0           0           0           0
  1    55         STAT          0           0           0           0           0
  1    56     STAT_ALL          0           0           0           0           0
-RP/0/RSP0/CPU0:cr02.sam.ic#
-RP/0/RSP0/CPU0:cr02.sam.ic#
-RP/0/RSP0/CPU0:cr02.sam.ic#
-RP/0/RSP0/CPU0:cr02.sam.ic#
-RP/0/RSP0/CPU0:cr02.sam.ic#
-RP/0/RSP0/CPU0:cr02.sam.ic#
-RP/0/RSP0/CPU0:cr02.sam.ic#
-RP/0/RSP0/CPU0:cr02.sam.ic#show controllers np summary all 
+RP/0/RSP0/CPU0:test#
+RP/0/RSP0/CPU0:test#
+RP/0/RSP0/CPU0:test#
+RP/0/RSP0/CPU0:test#
+RP/0/RSP0/CPU0:test#
+RP/0/RSP0/CPU0:test#
+RP/0/RSP0/CPU0:test#
+RP/0/RSP0/CPU0:test#show controllers np summary all 
 Thu Oct  7 16:55:22.044 KST
 
                 Node: 0/0/CPU0:
@@ -744,12 +744,12 @@ Thu Oct  7 16:55:22.044 KST
  NP 1 :  Hardware Revision: v2 A0
       :  Ucode - Version: 1.0 Build Date: ( Apr 17 2019, 00:23:00 ) 
       :  State: UP
-RP/0/RSP0/CPU0:cr02.sam.ic#
-RP/0/RSP0/CPU0:cr02.sam.ic#
-RP/0/RSP0/CPU0:cr02.sam.ic#
-RP/0/RSP0/CPU0:cr02.sam.ic#
-RP/0/RSP0/CPU0:cr02.sam.ic#
-RP/0/RSP0/CPU0:cr02.sam.ic#show controllers np counters all location ?
+RP/0/RSP0/CPU0:test#
+RP/0/RSP0/CPU0:test#
+RP/0/RSP0/CPU0:test#
+RP/0/RSP0/CPU0:test#
+RP/0/RSP0/CPU0:test#
+RP/0/RSP0/CPU0:test#show controllers np counters all location ?
   0/0/CPU0  Fully qualified line card specification
   0/1/CPU0  Fully qualified line card specification
   0/2/CPU0  Fully qualified line card specification
@@ -758,7 +758,7 @@ RP/0/RSP0/CPU0:cr02.sam.ic#show controllers np counters all location ?
   0/6/CPU0  Fully qualified line card specification
   0/7/CPU0  Fully qualified line card specification
   WORD      Fully qualified line card specification
-RP/0/RSP0/CPU0:cr02.sam.ic#show controllers np counters all location 0/6/CPU0 
+RP/0/RSP0/CPU0:test#show controllers np counters all location 0/6/CPU0 
 Thu Oct  7 16:55:32.073 KST
 
                 Node: 0/6/CPU0:
@@ -891,10 +891,10 @@ Offset  Counter                                               FrameValue   Rate 
 1413  UNKNOWN_L2_ON_L3_DISCARD                                         1           0
 1432  PARSE_UDLD                                                  160038           0
 
-RP/0/RSP0/CPU0:cr02.sam.ic#
-RP/0/RSP0/CPU0:cr02.sam.ic#
-RP/0/RSP0/CPU0:cr02.sam.ic#
-RP/0/RSP0/CPU0:cr02.sam.ic#show controllers np counters all location 0/7/CPU0 
+RP/0/RSP0/CPU0:test#
+RP/0/RSP0/CPU0:test#
+RP/0/RSP0/CPU0:test#
+RP/0/RSP0/CPU0:test#show controllers np counters all location 0/7/CPU0 
 Thu Oct  7 16:55:35.715 KST
 
                 Node: 0/7/CPU0:
@@ -1027,14 +1027,14 @@ Offset  Counter                                               FrameValue   Rate 
 1425  L2TP_ING_DECAP_VER_DROP                                          1           0
 1432  PARSE_UDLD                                                  162136           0
 
-RP/0/RSP0/CPU0:cr02.sam.ic#
-RP/0/RSP0/CPU0:cr02.sam.ic#
-RP/0/RSP0/CPU0:cr02.sam.ic#
-RP/0/RSP0/CPU0:cr02.sam.ic#
-RP/0/RSP0/CPU0:cr02.sam.ic#
-RP/0/RSP0/CPU0:cr02.sam.ic#
-RP/0/RSP0/CPU0:cr02.sam.ic#
-RP/0/RSP0/CPU0:cr02.sam.ic#show pfm location all
+RP/0/RSP0/CPU0:test#
+RP/0/RSP0/CPU0:test#
+RP/0/RSP0/CPU0:test#
+RP/0/RSP0/CPU0:test#
+RP/0/RSP0/CPU0:test#
+RP/0/RSP0/CPU0:test#
+RP/0/RSP0/CPU0:test#
+RP/0/RSP0/CPU0:test#show pfm location all
 Thu Oct  7 16:55:42.403 KST
 
 
@@ -1130,29 +1130,29 @@ Raised Time         |S#|Fault Name                         |Sev|Proc_ID|Dev/Path
 --------------------+--+-----------------------------------+---+-------+--------------+----------
 Oct  5 18:14:38 2021|3 |DEV_XFP_COMPLIANCE_ERROR           |CR |245907 |XFP           |0x102a000 
 Oct  5 18:14:38 2021|3 |DEV_XFP_PID_NOT_SUPPORTED          |CR |245907 |XFP           |0x102a000 
-RP/0/RSP0/CPU0:cr02.sam.ic#
-RP/0/RSP0/CPU0:cr02.sam.ic#
-RP/0/RSP0/CPU0:cr02.sam.ic#
-RP/0/RSP0/CPU0:cr02.sam.ic#
-RP/0/RSP0/CPU0:cr02.sam.ic#
-RP/0/RSP0/CPU0:cr02.sam.ic#
-RP/0/RSP0/CPU0:cr02.sam.ic#show pfm trace 
+RP/0/RSP0/CPU0:test#
+RP/0/RSP0/CPU0:test#
+RP/0/RSP0/CPU0:test#
+RP/0/RSP0/CPU0:test#
+RP/0/RSP0/CPU0:test#
+RP/0/RSP0/CPU0:test#
+RP/0/RSP0/CPU0:test#show pfm trace 
 Thu Oct  7 16:55:50.462 KST
 3 wrapping entries (10304 possible, 64 allocated, 0 filtered, 3 total)
 Sep 26 00:36:17.036 pfm/node.log 0/RSP0/CPU0 t1  pfm_node.c:689: main: pfm_node starting! pid=217187
 Oct  7 07:33:12.887 pfm/node.log 0/RSP0/CPU0 t1  pfm_writer.c:236: pfm_log_write: Set|fab_xbar[217208]|0x101700b|XBAR_0_Slot_3
 Oct  7 07:33:22.904 pfm/node.log 0/RSP0/CPU0 t1  pfm_writer.c:236: pfm_log_write: Clear|fab_xbar[217208]|0x101700b|XBAR_0_Slot_3
-RP/0/RSP0/CPU0:cr02.sam.ic#
-RP/0/RSP0/CPU0:cr02.sam.ic#
-RP/0/RSP0/CPU0:cr02.sam.ic#
-RP/0/RSP0/CPU0:cr02.sam.ic#
-RP/0/RSP0/CPU0:cr02.sam.ic#show interfaces tenGigE 0/6/0/2
+RP/0/RSP0/CPU0:test#
+RP/0/RSP0/CPU0:test#
+RP/0/RSP0/CPU0:test#
+RP/0/RSP0/CPU0:test#
+RP/0/RSP0/CPU0:test#show interfaces tenGigE 0/6/0/2
 Thu Oct  7 16:55:58.546 KST
 TenGigE0/6/0/2 is up, line protocol is up 
   Interface state transitions: 1
   Hardware is TenGigE, address is d46d.500e.2e4e (bia d46d.500e.2e4e)
   Layer 1 Transport Mode is LAN
-  Description: [IN21078389] cr02.sam.ic = ipe01.sam.ia CUS
+  Description: [IN21078389] test = ipe01.sam.ia CUS
   Internet address is 157.197.82.73/30
   MTU 1514 bytes, BW 10000000 Kbit (Max: 10000000 Kbit)
      reliability 255/255, txload 11/255, rxload 26/255
@@ -1179,16 +1179,16 @@ TenGigE0/6/0/2 is up, line protocol is up
      1 carrier transitions
 
 
-RP/0/RSP0/CPU0:cr02.sam.ic#
-RP/0/RSP0/CPU0:cr02.sam.ic#
-RP/0/RSP0/CPU0:cr02.sam.ic#
-RP/0/RSP0/CPU0:cr02.sam.ic#show interfaces tenGigE 0/7/0/2
+RP/0/RSP0/CPU0:test#
+RP/0/RSP0/CPU0:test#
+RP/0/RSP0/CPU0:test#
+RP/0/RSP0/CPU0:test#show interfaces tenGigE 0/7/0/2
 Thu Oct  7 16:56:02.977 KST
 TenGigE0/7/0/2 is up, line protocol is up 
   Interface state transitions: 1
   Hardware is TenGigE, address is e0ac.f16d.656a (bia e0ac.f16d.656a)
   Layer 1 Transport Mode is LAN
-  Description: [IN21078391] cr02.sam.ic = ipe02.sam.ia CUS
+  Description: [IN21078391] test = ipe02.sam.ia CUS
   Internet address is 157.197.82.77/30
   MTU 1514 bytes, BW 10000000 Kbit (Max: 10000000 Kbit)
      reliability 255/255, txload 12/255, rxload 23/255
@@ -1215,20 +1215,20 @@ TenGigE0/7/0/2 is up, line protocol is up
      1 carrier transitions
 
 
-RP/0/RSP0/CPU0:cr02.sam.ic#
-RP/0/RSP0/CPU0:cr02.sam.ic#
-RP/0/RSP0/CPU0:cr02.sam.ic#
-RP/0/RSP0/CPU0:cr02.sam.ic#
-RP/0/RSP0/CPU0:cr02.sam.ic#
-RP/0/RSP0/CPU0:cr02.sam.ic#
-RP/0/RSP0/CPU0:cr02.sam.ic#
-RP/0/RSP0/CPU0:cr02.sam.ic#show interfaces tenGigE 0/6/0/2
+RP/0/RSP0/CPU0:test#
+RP/0/RSP0/CPU0:test#
+RP/0/RSP0/CPU0:test#
+RP/0/RSP0/CPU0:test#
+RP/0/RSP0/CPU0:test#
+RP/0/RSP0/CPU0:test#
+RP/0/RSP0/CPU0:test#
+RP/0/RSP0/CPU0:test#show interfaces tenGigE 0/6/0/2
 Thu Oct  7 16:56:11.751 KST
 TenGigE0/6/0/2 is up, line protocol is up 
   Interface state transitions: 1
   Hardware is TenGigE, address is d46d.500e.2e4e (bia d46d.500e.2e4e)
   Layer 1 Transport Mode is LAN
-  Description: [IN21078389] cr02.sam.ic = ipe01.sam.ia CUS
+  Description: [IN21078389] test = ipe01.sam.ia CUS
   Internet address is 157.197.82.73/30
   MTU 1514 bytes, BW 10000000 Kbit (Max: 10000000 Kbit)
      reliability 255/255, txload 11/255, rxload 26/255
@@ -1255,17 +1255,17 @@ TenGigE0/6/0/2 is up, line protocol is up
      1 carrier transitions
 
 
-RP/0/RSP0/CPU0:cr02.sam.ic# 
-RP/0/RSP0/CPU0:cr02.sam.ic#
-RP/0/RSP0/CPU0:cr02.sam.ic#
-RP/0/RSP0/CPU0:cr02.sam.ic#
-RP/0/RSP0/CPU0:cr02.sam.ic#show interfaces tenGigE 0/6/0/2
+RP/0/RSP0/CPU0:test# 
+RP/0/RSP0/CPU0:test#
+RP/0/RSP0/CPU0:test#
+RP/0/RSP0/CPU0:test#
+RP/0/RSP0/CPU0:test#show interfaces tenGigE 0/6/0/2
 Thu Oct  7 16:56:13.987 KST
 TenGigE0/6/0/2 is up, line protocol is up 
   Interface state transitions: 1
   Hardware is TenGigE, address is d46d.500e.2e4e (bia d46d.500e.2e4e)
   Layer 1 Transport Mode is LAN
-  Description: [IN21078389] cr02.sam.ic = ipe01.sam.ia CUS
+  Description: [IN21078389] test = ipe01.sam.ia CUS
   Internet address is 157.197.82.73/30
   MTU 1514 bytes, BW 10000000 Kbit (Max: 10000000 Kbit)
      reliability 255/255, txload 11/255, rxload 26/255
@@ -1292,16 +1292,16 @@ TenGigE0/6/0/2 is up, line protocol is up
      1 carrier transitions
 
 
-RP/0/RSP0/CPU0:cr02.sam.ic#
-RP/0/RSP0/CPU0:cr02.sam.ic#
-RP/0/RSP0/CPU0:cr02.sam.ic#
-RP/0/RSP0/CPU0:cr02.sam.ic#show interfaces tenGigE 0/6/0/2
+RP/0/RSP0/CPU0:test#
+RP/0/RSP0/CPU0:test#
+RP/0/RSP0/CPU0:test#
+RP/0/RSP0/CPU0:test#show interfaces tenGigE 0/6/0/2
 Thu Oct  7 16:56:15.946 KST
 TenGigE0/6/0/2 is up, line protocol is up 
   Interface state transitions: 1
   Hardware is TenGigE, address is d46d.500e.2e4e (bia d46d.500e.2e4e)
   Layer 1 Transport Mode is LAN
-  Description: [IN21078389] cr02.sam.ic = ipe01.sam.ia CUS
+  Description: [IN21078389] test = ipe01.sam.ia CUS
   Internet address is 157.197.82.73/30
   MTU 1514 bytes, BW 10000000 Kbit (Max: 10000000 Kbit)
      reliability 255/255, txload 11/255, rxload 26/255
@@ -1328,17 +1328,17 @@ TenGigE0/6/0/2 is up, line protocol is up
      1 carrier transitions
 
 
-RP/0/RSP0/CPU0:cr02.sam.ic#
-RP/0/RSP0/CPU0:cr02.sam.ic#
-RP/0/RSP0/CPU0:cr02.sam.ic#
-RP/0/RSP0/CPU0:cr02.sam.ic#
-RP/0/RSP0/CPU0:cr02.sam.ic#show interfaces tenGigE 0/6/0/2
+RP/0/RSP0/CPU0:test#
+RP/0/RSP0/CPU0:test#
+RP/0/RSP0/CPU0:test#
+RP/0/RSP0/CPU0:test#
+RP/0/RSP0/CPU0:test#show interfaces tenGigE 0/6/0/2
 Thu Oct  7 16:56:17.919 KST
 TenGigE0/6/0/2 is up, line protocol is up 
   Interface state transitions: 1
   Hardware is TenGigE, address is d46d.500e.2e4e (bia d46d.500e.2e4e)
   Layer 1 Transport Mode is LAN
-  Description: [IN21078389] cr02.sam.ic = ipe01.sam.ia CUS
+  Description: [IN21078389] test = ipe01.sam.ia CUS
   Internet address is 157.197.82.73/30
   MTU 1514 bytes, BW 10000000 Kbit (Max: 10000000 Kbit)
      reliability 255/255, txload 11/255, rxload 26/255
@@ -1365,17 +1365,17 @@ TenGigE0/6/0/2 is up, line protocol is up
      1 carrier transitions
 
 
-RP/0/RSP0/CPU0:cr02.sam.ic#
-RP/0/RSP0/CPU0:cr02.sam.ic#
-RP/0/RSP0/CPU0:cr02.sam.ic#
-RP/0/RSP0/CPU0:cr02.sam.ic#
-RP/0/RSP0/CPU0:cr02.sam.ic#show interfaces tenGigE 0/7/0/2
+RP/0/RSP0/CPU0:test#
+RP/0/RSP0/CPU0:test#
+RP/0/RSP0/CPU0:test#
+RP/0/RSP0/CPU0:test#
+RP/0/RSP0/CPU0:test#show interfaces tenGigE 0/7/0/2
 Thu Oct  7 16:56:21.660 KST
 TenGigE0/7/0/2 is up, line protocol is up 
   Interface state transitions: 1
   Hardware is TenGigE, address is e0ac.f16d.656a (bia e0ac.f16d.656a)
   Layer 1 Transport Mode is LAN
-  Description: [IN21078391] cr02.sam.ic = ipe02.sam.ia CUS
+  Description: [IN21078391] test = ipe02.sam.ia CUS
   Internet address is 157.197.82.77/30
   MTU 1514 bytes, BW 10000000 Kbit (Max: 10000000 Kbit)
      reliability 255/255, txload 12/255, rxload 23/255
@@ -1402,17 +1402,17 @@ TenGigE0/7/0/2 is up, line protocol is up
      1 carrier transitions
 
 
-RP/0/RSP0/CPU0:cr02.sam.ic#
-RP/0/RSP0/CPU0:cr02.sam.ic#
-RP/0/RSP0/CPU0:cr02.sam.ic#
-RP/0/RSP0/CPU0:cr02.sam.ic#
-RP/0/RSP0/CPU0:cr02.sam.ic#show interfaces tenGigE 0/7/0/2
+RP/0/RSP0/CPU0:test#
+RP/0/RSP0/CPU0:test#
+RP/0/RSP0/CPU0:test#
+RP/0/RSP0/CPU0:test#
+RP/0/RSP0/CPU0:test#show interfaces tenGigE 0/7/0/2
 Thu Oct  7 16:56:23.736 KST
 TenGigE0/7/0/2 is up, line protocol is up 
   Interface state transitions: 1
   Hardware is TenGigE, address is e0ac.f16d.656a (bia e0ac.f16d.656a)
   Layer 1 Transport Mode is LAN
-  Description: [IN21078391] cr02.sam.ic = ipe02.sam.ia CUS
+  Description: [IN21078391] test = ipe02.sam.ia CUS
   Internet address is 157.197.82.77/30
   MTU 1514 bytes, BW 10000000 Kbit (Max: 10000000 Kbit)
      reliability 255/255, txload 12/255, rxload 23/255
@@ -1439,17 +1439,17 @@ TenGigE0/7/0/2 is up, line protocol is up
      1 carrier transitions
 
 
-RP/0/RSP0/CPU0:cr02.sam.ic#
-RP/0/RSP0/CPU0:cr02.sam.ic#
-RP/0/RSP0/CPU0:cr02.sam.ic#
-RP/0/RSP0/CPU0:cr02.sam.ic#
-RP/0/RSP0/CPU0:cr02.sam.ic#show interfaces tenGigE 0/7/0/2
+RP/0/RSP0/CPU0:test#
+RP/0/RSP0/CPU0:test#
+RP/0/RSP0/CPU0:test#
+RP/0/RSP0/CPU0:test#
+RP/0/RSP0/CPU0:test#show interfaces tenGigE 0/7/0/2
 Thu Oct  7 16:56:25.689 KST
 TenGigE0/7/0/2 is up, line protocol is up 
   Interface state transitions: 1
   Hardware is TenGigE, address is e0ac.f16d.656a (bia e0ac.f16d.656a)
   Layer 1 Transport Mode is LAN
-  Description: [IN21078391] cr02.sam.ic = ipe02.sam.ia CUS
+  Description: [IN21078391] test = ipe02.sam.ia CUS
   Internet address is 157.197.82.77/30
   MTU 1514 bytes, BW 10000000 Kbit (Max: 10000000 Kbit)
      reliability 255/255, txload 11/255, rxload 23/255
@@ -1476,18 +1476,18 @@ TenGigE0/7/0/2 is up, line protocol is up
      1 carrier transitions
 
 
-RP/0/RSP0/CPU0:cr02.sam.ic#
-RP/0/RSP0/CPU0:cr02.sam.ic#
-RP/0/RSP0/CPU0:cr02.sam.ic#
-RP/0/RSP0/CPU0:cr02.sam.ic#
-RP/0/RSP0/CPU0:cr02.sam.ic#
-RP/0/RSP0/CPU0:cr02.sam.ic#show interfaces tenGigE 0/7/0/2
+RP/0/RSP0/CPU0:test#
+RP/0/RSP0/CPU0:test#
+RP/0/RSP0/CPU0:test#
+RP/0/RSP0/CPU0:test#
+RP/0/RSP0/CPU0:test#
+RP/0/RSP0/CPU0:test#show interfaces tenGigE 0/7/0/2
 Thu Oct  7 16:56:28.000 KST
 TenGigE0/7/0/2 is up, line protocol is up 
   Interface state transitions: 1
   Hardware is TenGigE, address is e0ac.f16d.656a (bia e0ac.f16d.656a)
   Layer 1 Transport Mode is LAN
-  Description: [IN21078391] cr02.sam.ic = ipe02.sam.ia CUS
+  Description: [IN21078391] test = ipe02.sam.ia CUS
   Internet address is 157.197.82.77/30
   MTU 1514 bytes, BW 10000000 Kbit (Max: 10000000 Kbit)
      reliability 255/255, txload 11/255, rxload 23/255
@@ -1514,12 +1514,12 @@ TenGigE0/7/0/2 is up, line protocol is up
      1 carrier transitions
 
 
-RP/0/RSP0/CPU0:cr02.sam.ic#
-RP/0/RSP0/CPU0:cr02.sam.ic#
-RP/0/RSP0/CPU0:cr02.sam.ic#
-RP/0/RSP0/CPU0:cr02.sam.ic#
-RP/0/RSP0/CPU0:cr02.sam.ic#
-RP/0/RSP0/CPU0:cr02.sam.ic#show netio idb tenGigE 0/6/0/2
+RP/0/RSP0/CPU0:test#
+RP/0/RSP0/CPU0:test#
+RP/0/RSP0/CPU0:test#
+RP/0/RSP0/CPU0:test#
+RP/0/RSP0/CPU0:test#
+RP/0/RSP0/CPU0:test#show netio idb tenGigE 0/6/0/2
 Thu Oct  7 16:56:39.874 KST
 
 
@@ -1634,11 +1634,11 @@ ipv4 <26>  (ipv4 <12> encaps):
 ipv6 <82>  (ipv6 <19> decaps):
     /pkg/lib/libipv6_netio.dll                0x4ffbaac4       50757     5244858
 
-RP/0/RSP0/CPU0:cr02.sam.ic#
-RP/0/RSP0/CPU0:cr02.sam.ic#
-RP/0/RSP0/CPU0:cr02.sam.ic#
-RP/0/RSP0/CPU0:cr02.sam.ic#
-RP/0/RSP0/CPU0:cr02.sam.ic#show netio idb tenGigE 0/7/0/2
+RP/0/RSP0/CPU0:test#
+RP/0/RSP0/CPU0:test#
+RP/0/RSP0/CPU0:test#
+RP/0/RSP0/CPU0:test#
+RP/0/RSP0/CPU0:test#show netio idb tenGigE 0/7/0/2
 Thu Oct  7 16:56:43.722 KST
 
 
@@ -1753,20 +1753,20 @@ ipv4 <26>  (ipv4 <12> encaps):
 ipv6 <82>  (ipv6 <19> decaps):
     /pkg/lib/libipv6_netio.dll                0x49458ac4       52100     5384242
 
-RP/0/RSP0/CPU0:cr02.sam.ic#
-RP/0/RSP0/CPU0:cr02.sam.ic#
-RP/0/RSP0/CPU0:cr02.sam.ic#
-RP/0/RSP0/CPU0:cr02.sam.ic#
-RP/0/RSP0/CPU0:cr02.sam.ic#
-RP/0/RSP0/CPU0:cr02.sam.ic#
-RP/0/RSP0/CPU0:cr02.sam.ic#
-RP/0/RSP0/CPU0:cr02.sam.ic#show controllers tenGigE     
+RP/0/RSP0/CPU0:test#
+RP/0/RSP0/CPU0:test#
+RP/0/RSP0/CPU0:test#
+RP/0/RSP0/CPU0:test#
+RP/0/RSP0/CPU0:test#
+RP/0/RSP0/CPU0:test#
+RP/0/RSP0/CPU0:test#
+RP/0/RSP0/CPU0:test#show controllers tenGigE     
 TenGigE  TenGigECtrlr  
-RP/0/RSP0/CPU0:cr02.sam.ic#show controllers tenGigE
+RP/0/RSP0/CPU0:test#show controllers tenGigE
 TenGigE  TenGigECtrlr  
-RP/0/RSP0/CPU0:cr02.sam.ic#show controllers tenGigE
+RP/0/RSP0/CPU0:test#show controllers tenGigE
 TenGigE  TenGigECtrlr  
-RP/0/RSP0/CPU0:cr02.sam.ic#show controllers tenGigE 0/6/0/2 internal 
+RP/0/RSP0/CPU0:test#show controllers tenGigE 0/6/0/2 internal 
 Thu Oct  7 16:57:03.695 KST
 
 Internal data for interface: TenGigE0/6/0/2
@@ -1808,11 +1808,11 @@ Pluggable Compl.    : Compliant
 Pluggable Type Supp.: Supported
 Pluggable PID Supp. : (Permit All) - Supported
 
-RP/0/RSP0/CPU0:cr02.sam.ic#
-RP/0/RSP0/CPU0:cr02.sam.ic#
-RP/0/RSP0/CPU0:cr02.sam.ic#
-RP/0/RSP0/CPU0:cr02.sam.ic#
-RP/0/RSP0/CPU0:cr02.sam.ic#show controllers tenGigE 0/7/0/2 internal 
+RP/0/RSP0/CPU0:test#
+RP/0/RSP0/CPU0:test#
+RP/0/RSP0/CPU0:test#
+RP/0/RSP0/CPU0:test#
+RP/0/RSP0/CPU0:test#show controllers tenGigE 0/7/0/2 internal 
 Thu Oct  7 16:57:07.772 KST
 
 Internal data for interface: TenGigE0/7/0/2
@@ -1854,13 +1854,13 @@ Pluggable Compl.    : Compliant
 Pluggable Type Supp.: Supported
 Pluggable PID Supp. : (Permit All) - Supported
 
-RP/0/RSP0/CPU0:cr02.sam.ic#
-RP/0/RSP0/CPU0:cr02.sam.ic#
-RP/0/RSP0/CPU0:cr02.sam.ic#
-RP/0/RSP0/CPU0:cr02.sam.ic#
-RP/0/RSP0/CPU0:cr02.sam.ic#
-RP/0/RSP0/CPU0:cr02.sam.ic#
-RP/0/RSP0/CPU0:cr02.sam.ic#show controllers tenGigE 0/6/0/2 stats 
+RP/0/RSP0/CPU0:test#
+RP/0/RSP0/CPU0:test#
+RP/0/RSP0/CPU0:test#
+RP/0/RSP0/CPU0:test#
+RP/0/RSP0/CPU0:test#
+RP/0/RSP0/CPU0:test#
+RP/0/RSP0/CPU0:test#show controllers tenGigE 0/6/0/2 stats 
 Thu Oct  7 16:57:18.713 KST
 Statistics for interface TenGigE0/6/0/2 (cached values):
 
@@ -1930,12 +1930,12 @@ Egress:
 
     Output error other          = 0
 
-RP/0/RSP0/CPU0:cr02.sam.ic#
-RP/0/RSP0/CPU0:cr02.sam.ic#
-RP/0/RSP0/CPU0:cr02.sam.ic#
-RP/0/RSP0/CPU0:cr02.sam.ic#
-RP/0/RSP0/CPU0:cr02.sam.ic#
-RP/0/RSP0/CPU0:cr02.sam.ic#show controllers tenGigE 0/7/0/2 stats 
+RP/0/RSP0/CPU0:test#
+RP/0/RSP0/CPU0:test#
+RP/0/RSP0/CPU0:test#
+RP/0/RSP0/CPU0:test#
+RP/0/RSP0/CPU0:test#
+RP/0/RSP0/CPU0:test#show controllers tenGigE 0/7/0/2 stats 
 Thu Oct  7 16:57:22.839 KST
 Statistics for interface TenGigE0/7/0/2 (cached values):
 
@@ -2005,9 +2005,9 @@ Egress:
 
     Output error other          = 0
 
-RP/0/RSP0/CPU0:cr02.sam.ic#
-RP/0/RSP0/CPU0:cr02.sam.ic#
-RP/0/RSP0/CPU0:cr02.sam.ic#
-RP/0/RSP0/CPU0:cr02.sam.ic#
-RP/0/RSP0/CPU0:cr02.sam.ic#
-RP/0/RSP0/CPU0:cr02.sam.ic#
+RP/0/RSP0/CPU0:test#
+RP/0/RSP0/CPU0:test#
+RP/0/RSP0/CPU0:test#
+RP/0/RSP0/CPU0:test#
+RP/0/RSP0/CPU0:test#
+RP/0/RSP0/CPU0:test#
