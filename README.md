@@ -26,7 +26,7 @@ It is used by test the device.
 
 ## 3. Interface Analyzer
 
-Interface Analyzer is used to analyze **"show interfaces"** result on IOS-X.
+Interface Analyzer is used to analyze **"show interfaces"** result on IOS-XR.
 
 It is used to analyze the input/output drops .
 
