@@ -6,7 +6,7 @@ BY <guangli2@cisco.com>                                                    PUBLI
 
 New Entitlement Tool is a tool to compare the SN of SRs and show inventory to check if the SN is matching with show inventory information.
 
-New Entitlement Tool which developed by python 3.x
+New Entitlement Tool which developed by python 3.8
 
 ## 1. Setup a New Entitlement Tool
 
