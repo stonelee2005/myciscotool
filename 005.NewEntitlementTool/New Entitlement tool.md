@@ -20,7 +20,7 @@ Download and Install Python 3.8 ,PyCharm Community ,Please select proper version
 
 2. [PyCharm Community](https://www.jetbrains.com/products/compare/?product=pycharm&product=pycharm-ce)
 
-   ![image-20220905121141669](https://github.com/stonelee2005/myciscotool/tree/main/005.NewEntitlementTool/img/image-20220905121141669.png) 
+   ![image-20220905121141669](https://github.com/stonelee2005/myciscotool/blob/main/005.NewEntitlementTool/img/image-20220905121141669.png) 
 
 
 
@@ -34,31 +34,31 @@ Import a New Entitlement Tool
 
    File -> Open -> Find  TACENT-master Directory
 
-   ![image-20220905122533045](https://github.com/stonelee2005/myciscotool/tree/main/005.NewEntitlementTool/img/image-20220905122533045.png) 
+   ![image-20220905122533045](https://github.com/stonelee2005/myciscotool/blob/main/005.NewEntitlementTool/img/image-20220905122533045.png) 
 
-   ![image-20220905161538597](https://github.com/stonelee2005/myciscotool/tree/main/005.NewEntitlementTool/img/image-20220905161538597.png)  
+   ![image-20220905161538597](https://github.com/stonelee2005/myciscotool/blob/main/005.NewEntitlementTool/img/image-20220905161538597.png)  
 
 3. Configure Python Interpreter & Package requirements
 
    1. Configure Python Interpreter 
 
-      ![image-20220905161634171](https://github.com/stonelee2005/myciscotool/tree/main/005.NewEntitlementTool/img/image-20220905161634171.png)     
+      ![image-20220905161634171](https://github.com/stonelee2005/myciscotool/blob/main/005.NewEntitlementTool/img/image-20220905161634171.png)     
 
-      ![image-20220905160106423](https://github.com/stonelee2005/myciscotool/tree/main/005.NewEntitlementTool/img/image-20220905160106423.png) 
+      ![image-20220905160106423](https://github.com/stonelee2005/myciscotool/blob/main/005.NewEntitlementTool/img/image-20220905160106423.png) 
 
       Find the path of Python Interpreter which you installed
 
-      ![image-20220905160139245](https://github.com/stonelee2005/myciscotool/tree/main/005.NewEntitlementTool/img/image-20220905160139245.png)
+      ![image-20220905160139245](https://github.com/stonelee2005/myciscotool/blob/main/005.NewEntitlementTool/img/image-20220905160139245.png)
 
    2. Configure Package requirements
 
-      ![image-20220905162429659](https://github.com/stonelee2005/myciscotool/tree/main/005.NewEntitlementTool/img/image-20220905162429659.png)  
+      ![image-20220905162429659](https://github.com/stonelee2005/myciscotool/blob/main/005.NewEntitlementTool/img/image-20220905162429659.png)  
 
-      ![image-20220905162459845](https://github.com/stonelee2005/myciscotool/tree/main/005.NewEntitlementTool/img/image-20220905162459845.png)  
+      ![image-20220905162459845](https://github.com/stonelee2005/myciscotool/blob/main/005.NewEntitlementTool/img/image-20220905162459845.png)  
 
       Wait until Packages installed successfully
 
-      ![img](https://github.com/stonelee2005/myciscotool/tree/main/005.NewEntitlementTool/img/SNAGHTML1c53220.PNG)
+      ![img](https://github.com/stonelee2005/myciscotool/blob/main/005.NewEntitlementTool/img/SNAGHTML1c53220.PNG)
 
 4. Open a TACENT-master/main_scripts/auth.py to modify the source with your **username,password**
 
@@ -76,11 +76,11 @@ Import a New Entitlement Tool
 
    Original Source
 
-   ![image-20220905122951931](https://github.com/stonelee2005/myciscotool/tree/main/005.NewEntitlementTool/img/image-20220905122951931.png) 
+   ![image-20220905122951931](https://github.com/stonelee2005/myciscotool/blob/main/005.NewEntitlementTool/img/image-20220905122951931.png) 
 
    Update 
 
-   ![image-20220905155704217](https://github.com/stonelee2005/myciscotool/tree/main/005.NewEntitlementTool/img/image-20220905155704217.png) 
+   ![image-20220905155704217](https://github.com/stonelee2005/myciscotool/blob/main/005.NewEntitlementTool/img/image-20220905155704217.png) 
 
 
 
@@ -88,19 +88,19 @@ Import a New Entitlement Tool
 
 1. To run a New Entitlement Tool,Please open a input file(**main_scripts/docs/SRdoc.xlsx**) to fill SR
 
-   ![image-20220905124512658](https://github.com/stonelee2005/myciscotool/tree/main/005.NewEntitlementTool/img/image-20220905124512658.png) ![image-20220905161346534](https://github.com/stonelee2005/myciscotool/tree/main/005.NewEntitlementTool/img/image-20220905161346534.png)
+   ![image-20220905124512658](https://github.com/stonelee2005/myciscotool/blob/main/005.NewEntitlementTool/img/image-20220905124512658.png) ![image-20220905161346534](https://github.com/stonelee2005/myciscotool/blob/main/005.NewEntitlementTool/img/image-20220905161346534.png)
 
    
 
 2. Run main_task.py(**main_scripts/main_task.py**)
 
-   ![image-20220905124939938](https://github.com/stonelee2005/myciscotool/tree/main/005.NewEntitlementTool/img/image-20220905124939938.png) 
+   ![image-20220905124939938](https://github.com/stonelee2005/myciscotool/blob/main/005.NewEntitlementTool/img/image-20220905124939938.png) 
 
-   ![image-20220905125630996](https://github.com/stonelee2005/myciscotool/tree/main/005.NewEntitlementTool/img/image-20220905125630996.png) 
+   ![image-20220905125630996](https://github.com/stonelee2005/myciscotool/blob/main/005.NewEntitlementTool/img/image-20220905125630996.png) 
 
 3. Review the Output excel file(**main_scripts/docs/SROutput.xlsx**)
 
-   ![image-20220905161243286](https://github.com/stonelee2005/myciscotool/tree/main/005.NewEntitlementTool/img/image-20220905161243286.png)  
+   ![image-20220905161243286](https://github.com/stonelee2005/myciscotool/blob/main/005.NewEntitlementTool/img/image-20220905161243286.png)  
 
  
 
