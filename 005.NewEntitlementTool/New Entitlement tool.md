@@ -10,8 +10,6 @@ New Entitlement Tool which developed by python 3.8
 
 ## 1. Setup a New Entitlement Tool
 
-To use New Entitlement Tool,prerequisite
-
 ### 1.1 Prerequisite
 
 Download and Install Python 3.8 ,PyCharm Community ,Please select proper versions based on your OS (Window/macOS/Linux)
