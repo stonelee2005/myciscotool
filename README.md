@@ -10,7 +10,7 @@ PTP Badtimestamp Analyzer is used to analysis PTP timestamp offset in IOS-XR.
 
 If there are PTP Badtimestamps,the tools will be filter them 
 
-![image-20211115093909529](README.assets/image-20211115093909529.png) 
+![image-20211115093909529](https://github.com/stonelee2005/myciscotool/blob/main/000.README/image-20211115093909529.png) 
 
  
 
@@ -20,7 +20,7 @@ IP Factory is used to create IP Configuration on IOS-XR/IOS-XE.
 
 It is used by test the device.
 
-![image-20211115094117198](README.assets/image-20211115094117198.png) 
+![image-20211115094117198](https://github.com/stonelee2005/myciscotool/blob/main/000.README/image-20211115094117198.png) 
 
 
 
@@ -30,7 +30,7 @@ Interface Analyzer is used to analyze **"show interfaces"** result on IOS-XR.
 
 It is used to analyze the input/output drops .
 
-![IF Analyzer](README.assets/03-1-16369398368322.png)
+![IF Analyzer](https://github.com/stonelee2005/myciscotool/blob/main/000.README/03-1-16369398368322.png)
 
 ---
 
